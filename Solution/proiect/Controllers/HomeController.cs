@@ -13,7 +13,7 @@ namespace proiect.Controllers
         {
             return View();
         }
-        //comentariu ilinca
+        
 
         public ActionResult UserPage()
         {
