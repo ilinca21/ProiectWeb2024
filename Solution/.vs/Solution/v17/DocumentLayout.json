@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "proiect\\assets\\css\\style.css",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "proiect\\Views\\Shared\\_Header.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T19:50:27.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T19:50:27.512Z"
             },
             {
               "$type": "Document",
@@ -68,18 +67,17 @@
               "RelativeToolTip": "proiect\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T19:50:22.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T19:50:22.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-20T18:57:53.413Z",
               "EditorCaption": ""
@@ -94,8 +92,7 @@
               "RelativeToolTip": "proiect\\Views\\Shared\\_Navigation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T16:58:26.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T16:58:26.077Z"
             }
           ]
         }
