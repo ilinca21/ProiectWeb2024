@@ -564,19 +564,19 @@ h6 {
 # Sidebar
 --------------------------------------------------------------*/
 .sidebar {
-  position: fixed;
-  top: 60px;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 996;
-  transition: all 0.3s;
-  padding: 20px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #aab7cf transparent;
-  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 996;
+    transition: all 0.3s;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #a50a23;
+    box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+    background-color: #fff;
 }
 
 @media (max-width: 1199px) {
@@ -637,44 +637,44 @@ h6 {
   margin-bottom: 5px;
 }
 
-.sidebar-nav .nav-heading {
-  font-size: 11px;
-  text-transform: uppercase;
-  color: #899bbd;
-  font-weight: 600;
-  margin: 10px 0 5px 15px;
-}
+    .sidebar-nav .nav-heading {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #444444;
+        font-weight: 600;
+        margin: 10px 0 5px 15px;
+    }
 
-.sidebar-nav .nav-link {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  font-weight: 600;
-  color: #4154f1;
-  background: #f6f9ff;
-  padding: 10px 15px;
-  border-radius: 4px;
-}
+    .sidebar-nav .nav-link {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        color: #000000;
+        background: #fff;
+        padding: 10px 15px;
+        border-radius: 4px;
+    }
 
-.sidebar-nav .nav-link i {
-  font-size: 16px;
-  margin-right: 10px;
-  color: #4154f1;
-}
+        .sidebar-nav .nav-link i {
+            font-size: 16px;
+            margin-right: 10px;
+            color: #f8c50e;
+        }
 
-.sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
-}
+        .sidebar-nav .nav-link.collapsed {
+            color: #000000;
+            background: #fff;
+        }
 
-.sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
-}
+            .sidebar-nav .nav-link.collapsed i {
+                color: #f8c50e;
+            }
 
-.sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
-}
+        .sidebar-nav .nav-link:hover {
+            color: #FF0000;
+            background: #f8c50e;
+        }
 
 .sidebar-nav .nav-link:hover i {
   color: #4154f1;
