@@ -14,11 +14,12 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
-  color: #444444;
+    font-family: "Open Sans", sans-serif;
+    background-image: url('/assets/img/imgbackground.jpg');
+    background-size: 1800px 2500px; 
+    background-repeat: no-repeat; 
+    color: #f81717; 
 }
-
 a {
   color: #4154f1;
   text-decoration: none;

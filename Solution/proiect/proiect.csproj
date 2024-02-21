@@ -169,7 +169,6 @@
     <Content Include="assets3\images\hero_2.jpg" />
     <Content Include="assets3\images\imag.png" />
     <Content Include="assets3\images\imag2.jpg" />
-    <Content Include="assets3\images\imagine principala.jpg" />
     <Content Include="assets3\images\img_v_1-min.jpg" />
     <Content Include="assets3\images\img_v_2-min.png" />
     <Content Include="assets3\images\img_v_3-min.jpg" />
@@ -265,6 +264,7 @@
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\card.jpg" />
     <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\imgbackground.jpg" />
     <Content Include="assets\img\logo.png" />
     <Content Include="assets\img\messages-1.jpg" />
     <Content Include="assets\img\messages-2.jpg" />
