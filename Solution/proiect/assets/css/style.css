@@ -15,10 +15,10 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-image: url('/assets/img/imgbackground.jpg');
-    background-size: 1800px 2500px; 
+    background-image: url('/assets/img/ll.jpg');
+    background-size: 1600px 900px; 
     background-repeat: no-repeat; 
-    color: #f81717; 
+    color: #444444; 
 }
 a {
   color: #4154f1;
