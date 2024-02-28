@@ -1,24 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\",
+  "WorkspaceRootPath": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -32,11 +50,18 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_content.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+=======
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_content.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_content.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,15 +71,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 5,
+=======
+          "SelectedChildIndex": 4,
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "_Content.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Content.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Content.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Content.cshtml",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Content.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Content.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_Content.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -62,11 +91,15 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 5,
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
               "Title": "_LayoutLogIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -75,11 +108,15 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 4,
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "proiect\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
               "RelativeToolTip": "proiect\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,42 +127,66 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LoginPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\LoginPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\LoginPage.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\LoginPage.cshtml",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\LoginPage.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\LoginPage.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\LoginPage.cshtml",
+<<<<<<< HEAD
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABXAAAA",
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-28T17:59:26.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
               "Title": "_Navigation.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Navigation.cshtml",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_Navigation.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-28T17:30:19.851Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 8,
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
               "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "proiect\\assets\\css\\style.css",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
               "RelativeToolTip": "proiect\\assets\\css\\style.css",
               "ViewState": "AQIAAGgBAAAAAAAAAAAAAK4EAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-20T20:38:41.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T20:38:41.552Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "proiect\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T20:38:41.601Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
@@ -139,23 +200,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 3,
+>>>>>>> 47f39a89f4d92470c7a64c181119960257b52dda
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T20:38:41.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T20:38:41.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
