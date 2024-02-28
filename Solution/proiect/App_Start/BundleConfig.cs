@@ -24,15 +24,15 @@ namespace proiect.App_Start
                 "~/assets/vendor/simple-datatables/style.css"
                 ));
             bundles.Add(new ScriptBundle("~/bundles/navbar/js").Include(
-                "~/assets/js/main.js",
-                "~/assets/vendor/apexcharts/apexcharts.min.js",
-                "~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
-                "~/assets/vendor/chart.js/chart.umd.js",
-                "~/assets/vendor/echarts/echarts.min.js",
-                "~/assets/vendor/quill/quill.min.js",
-                "~/assets/vendor/simple-datatables/simple-datatables.js",
-                "~/assets/vendor/tinymce/tinymce.min.js",
-                "~/assets/vendor/php-email-form/validate.js"
+                "~/assets/js/main",
+                "~/assets/vendor/apexcharts/apexcharts.min",
+                "~/assets/vendor/bootstrap/js/bootstrap.bundle.min",
+                "~/assets/vendor/chart.js/chart.umd",
+                "~/assets/vendor/echarts/echarts.min",
+                "~/assets/vendor/quill/quill.min",
+                "~/assets/vendor/simple-datatables/simple-datatables",
+                "~/assets/vendor/tinymce/tinymce.min",
+                "~/assets/vendor/php-email-form/validate"
                 ));
 
         }
