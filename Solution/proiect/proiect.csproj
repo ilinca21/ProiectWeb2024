@@ -2698,6 +2698,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -3035,7 +3036,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="assets3\images\" />
     <Folder Include="assets\plugins\datatables-\extensions\FixedColumns\examples\integration\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="assets\vendor\chart.js\controllers\controller.bar.d.ts" />
