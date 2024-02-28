@@ -163,26 +163,6 @@
     <Content Include="assets3\fonts\icomoon\fonts\icomoon.svg" />
     <Content Include="assets3\fonts\icomoon\Read Me.txt" />
     <Content Include="assets3\fonts\icomoon\style.css" />
-    <Content Include="assets3\images\blob.png" />
-    <Content Include="assets3\images\dots.png" />
-    <Content Include="assets3\images\hero_1.jpg" />
-    <Content Include="assets3\images\hero_2.jpg" />
-    <Content Include="assets3\images\imag.png" />
-    <Content Include="assets3\images\imag2.jpg" />
-    <Content Include="assets3\images\img_v_1-min.jpg" />
-    <Content Include="assets3\images\img_v_2-min.png" />
-    <Content Include="assets3\images\img_v_3-min.jpg" />
-    <Content Include="assets3\images\img_v_4-min.jpg" />
-    <Content Include="assets3\images\img_v_5-min.jpg" />
-    <Content Include="assets3\images\img_v_6-min.jpg" />
-    <Content Include="assets3\images\img_v_7-min.jpg" />
-    <Content Include="assets3\images\img_v_8-min.jpg" />
-    <Content Include="assets3\images\person_1.jpg" />
-    <Content Include="assets3\images\person_2.jpg" />
-    <Content Include="assets3\images\person_3.jpg" />
-    <Content Include="assets3\images\person_4.jpg" />
-    <Content Include="assets3\images\person_5.jpg" />
-    <Content Include="assets3\images\world-dotted-map.png" />
     <Content Include="assets3\js\aos.js" />
     <Content Include="assets3\js\bootstrap.bundle.min.js" />
     <Content Include="assets3\js\counter.js" />
@@ -3050,6 +3030,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets3\images\" />
     <Folder Include="assets\plugins\datatables-\extensions\FixedColumns\examples\integration\" />
     <Folder Include="Models\" />
   </ItemGroup>
