@@ -24,7 +24,7 @@ namespace proiect.Controllers
             return View();
         }
 
-        public ActionResult LogIn()
+        public ActionResult LoginPage()
         {
             return View();
         }

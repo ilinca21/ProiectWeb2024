@@ -34,7 +34,6 @@ namespace proiect.App_Start
                 "~/assets/vendor/tinymce/tinymce.min",
                 "~/assets/vendor/php-email-form/validate"
                 ));
-
         }
     }
 }
