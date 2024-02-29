@@ -18,5 +18,21 @@ namespace proiect.Controllers
 
             return View(u);
         }
+
+        public ActionResult UserPage()
+        {
+            return View();
+        }
+
+        public ActionResult LogIn()
+        {
+            return View();
+        }
+
+        public ActionResult SignIn()
+        {
+            return View();
+        }
+
     }
 }
