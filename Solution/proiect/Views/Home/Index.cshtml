@@ -1,4 +1,27 @@
 ﻿@using System.Web.Optimization
 @{
+
     ViewBag.Title = "Index";
+
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    <div>
+        <!-- Adaugă o propoziție personalizată aici -->
+        <div>
+            <!-- Afiseaza propozitia personalizata din ViewBag -->
+            <p>@ViewBag.MyCustomSentence</p>
+        </div>
+        <p style="margin-top: 510px; opacity: 1.6; text-align: right; font-size: 35px; font-weight: bold; color: black; background-color: #f8c50e; display: inline-block; padding: 6px; font-family: 'Times New Roman', Times, serif; ">Donează pentru a aduce zâmbetul în viața altora. Fiecare contribuție contează!</p>
+
+    </div>
+</body>
+
+</html>
