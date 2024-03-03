@@ -10,7 +10,6 @@ namespace proiect.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-
         public ActionResult Index()
         {
             ViewBag.Title = "Index";
