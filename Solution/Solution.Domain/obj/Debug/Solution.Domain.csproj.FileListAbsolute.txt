@@ -1,0 +1,9 @@
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Domain.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Domain.pdb
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Helpers.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Helpers.pdb
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.csproj.AssemblyReference.cache
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.FE67E7E1.Up2Date
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.pdb

@@ -3028,6 +3028,8 @@
     <Content Include="Views\Home\LoginPage.cshtml" />
     <Content Include="Views\Shared\_LayoutLogIn.cshtml" />
     <Content Include="Views\Model.cshtml" />
+    <Content Include="Views\Home\CreateAccount.cshtml" />
+    <Content Include="Views\Shared\_LayoutCreateAccount.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

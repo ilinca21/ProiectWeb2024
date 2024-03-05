@@ -366,3 +366,7 @@ C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\obj\Debug\proiect.cspro
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\obj\Debug\proiect.csproj.Up2Date
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\obj\Debug\proiect.dll
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\obj\Debug\proiect.pdb
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.pdb
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.pdb

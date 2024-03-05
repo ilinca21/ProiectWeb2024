@@ -33,5 +33,10 @@ namespace proiect.Controllers
             return View();
         }
 
+        public ActionResult CreateAccount()
+        {
+            return View();
+        }
+
     }
 }
