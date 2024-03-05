@@ -9,3 +9,14 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.65B7AE2D.Up2Date
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.BusinessLogic.dll
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.BusinessLogic.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.BusinessLogic.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.BusinessLogic.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.Domain.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.Helpers.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.Domain.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.Helpers.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.65B7AE2D.Up2Date
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.BusinessLogic.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\obj\Debug\Solution.BusinessLogic.pdb

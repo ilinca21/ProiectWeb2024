@@ -370,3 +370,7 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogi
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.dll
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.pdb
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.pdb

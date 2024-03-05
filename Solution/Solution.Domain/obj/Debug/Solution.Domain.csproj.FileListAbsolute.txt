@@ -7,3 +7,12 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solutio
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.FE67E7E1.Up2Date
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.dll
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Domain.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Domain.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Helpers.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Helpers.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.csproj.AssemblyReference.cache
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.FE67E7E1.Up2Date
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.pdb
