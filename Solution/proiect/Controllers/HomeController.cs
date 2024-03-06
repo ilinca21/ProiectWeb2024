@@ -38,5 +38,10 @@ namespace proiect.Controllers
             return View();
         }
 
+        public ActionResult PageFAQ()
+        {
+            return View();
+        }
+
     }
 }
