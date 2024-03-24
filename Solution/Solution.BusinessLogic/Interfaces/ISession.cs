@@ -11,5 +11,6 @@ namespace Solution.BusinessLogic.Interfaces
     public interface ISession
     {
         ULoginResp UserLoginAction(ULoginData data);
+        ULoginResp RegisterNewUserAction(URegisterData regData);
     }
 }

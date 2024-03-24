@@ -374,3 +374,8 @@ C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLo
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.dll
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.pdb
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.SqlServer.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.dll.config
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.SqlServer.xml

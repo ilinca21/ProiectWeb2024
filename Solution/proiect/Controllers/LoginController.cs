@@ -1,6 +1,7 @@
 ﻿using proiect.Models.User;
 using Solution.BusinessLogic;
 using Solution.BusinessLogic.Interfaces;
+using Solution.BusinessLogic.MainBL;
 using Solution.Domain.Entities.Responce;
 using Solution.Domain.Entities.User;
 using System;
@@ -21,29 +22,46 @@ namespace proiect.Controllers
             _session = bl.GetSessionBL();
         }
 
-public ActionResult Index()
+        public ActionResult LogIn()
         {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Index(UserLogin data)
-        {
-            var UData = new ULoginData
+            var ULoginData = new ULoginData
             {
-                Credential = data.Credential,
-                Password = data.Password,
-                LoginIp = "0.0.0.0",
+                Credential = "user",
+                Password = "password",
+                LoginIp = " ",
                 LoginDateTime = DateTime.Now
             };
-
-            ULoginResp resp = _session.UserLoginAction(UData);
-
+            var test = _session.UserLoginAction(ULoginData);
             return View();
         }
-
-        public ActionResult Register()
+        
+        //Get : Login
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult LogIn(UserLogin data)
         {
+            if (ModelState.IsValid)
+            {
+                ULoginData uData = new ULoginData
+                {
+                    Credential = data.Credential,
+                    Password = data.Password,
+                    LoginIp = Request.UserHostAddress,
+                    LoginDateTime = DateTime.Now
+                };
+                ULoginResp resp = _session.UserLoginAction(uData);
+                if (resp.Status)
+                {
+                    //ADD COOCKIE
+
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("", resp.ActionStatusMsg);
+                    return View();
+                }
+            }
             return View();
         }
     }

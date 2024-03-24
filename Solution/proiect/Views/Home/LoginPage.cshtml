@@ -1,8 +1,8 @@
-﻿
-@{
-    ViewBag.Title = "LoginPage";
+﻿@{
+    ViewBag.Title = "LogIn";
     Layout = "~/Views/Shared/_LayoutLogIn.cshtml";
 }
+@model proiect.Models.User.UserLogin
 <div class="container">
 
     <section class="section register min-vh-100 d-flex flex-column align-items-right justify-content-right py-1">
@@ -24,7 +24,7 @@
 
                             <div class="pt-4 pb-2">
                                 <h5 class="card-title text-center pb-5 fs-4">Autentifică-te în contul tău</h5>
-                             
+
                             </div>
 
                             <form class="row g-3 needs-validation" novalidate>
@@ -69,3 +69,33 @@
         </div>
     </section>
 </div>
+<form method="post">
+    @using (Html.BeginForm("LoginPage", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <h3>Log in</h3>
+
+        <label for="Credential">Username</label>
+        @Html.TextBoxFor(UserLogin => UserLogin.Credential, new { @class = "form-control", placeholder = "Email or Phone", maxlength = "10" })
+        @Html.ValidationMessageFor(UserLogin => UserLogin.Credential, "", new { @class = "text-danger" })
+
+        <label for="Password">Password</label>
+        @Html.PasswordFor(UserLogin => UserLogin.Password, new { @class = "form-control", placeholder = "Password" })
+        @Html.ValidationMessageFor(UserLogin => UserLogin.Password, "", new { @class = "text-danger" })
+
+        <div class="social">
+            <div class="go"><i class="fab fa-google"></i>  Google</div>
+            <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div>
+
+        <div class="log-in">
+            <button type="submit" class="button">Log In</button>
+        </div><br>
+
+
+        <div class="sign-in">
+            <small><a href="@Url.Action("CreateAccount", "Register")">Create Account</a></small>
+        </div>
+    }
+</form>
+

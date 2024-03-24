@@ -6,13 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solution.BusinessLogic
+namespace Solution.BusinessLogic.MainBL
 {
     public class BusinessLogic
     {
         public ISession GetSessionBL()
         {
             return new SessionBL();
+        }
+
+        public IDonatorType GetDonatorTypeBL()
+        {
+            return new DonatorTypeBL();
         }
     }
 }
