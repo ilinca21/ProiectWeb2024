@@ -3043,6 +3043,8 @@
     <Content Include="Views\ViewDonatorType\TypePage.cshtml" />
     <Content Include="Views\Login\LoginPage.cshtml" />
     <Content Include="Views\Register\CreateAccount.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdaugareCaz.cshtml" />
+    <Content Include="Views\Home\PageAdaugareCaz.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

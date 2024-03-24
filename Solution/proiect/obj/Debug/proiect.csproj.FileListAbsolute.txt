@@ -379,3 +379,8 @@ C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.Sql
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.dll.config
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.xml
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.SqlServer.xml
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.SqlServer.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.BusinessLogic.dll.config
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.xml
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\EntityFramework.SqlServer.xml

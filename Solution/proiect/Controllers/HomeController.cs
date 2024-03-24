@@ -42,6 +42,10 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult PageAdaugareCaz()
+        {
+            return View();
+        }
 
     }
 }

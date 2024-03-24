@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "PageAdaugareCaz";
+    Layout = "~/Views/Shared/_LayoutAdaugareCaz.cshtml";
+}
+
+
+<h2 style="text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold;">Adaugă caz nou</h2>
+
+<form>
+    <!-- Tabelul pentru Nume și Prenume, Vârstă -->
+    <table style="margin: auto; ">
+        <tr>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Nume, Prenume</td>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Vârsta</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><input type="text" id="txtNumePrenume" /></td>
+            <td style="text-align: left;"><input type="text" id="txtVarsta" /></td>
+        </tr>
+    </table>
+
+    <table style="margin: auto;">
+        <tr>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Localitatea</td>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Adresa</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><input type="text" id="txtLocalitatea" /></td>
+            <td style="text-align: left;"><input type="text" id="txtAdresa" /></td>
+        </tr>
+    </table>
+
+    <table style="margin: auto;">
+        <tr>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Email</td>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Număr de telefon</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><input type="text" id="txtEmail" /></td>
+            <td style="text-align: left;"><input type="text" id="txtNumărdetelefon" /></td>
+        </tr>
+    </table>
+
+    <hr style="border-top: 15px solid black;">
+
+    <table style="margin: auto;">
+        <tr>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Titlu</td>
+
+        </tr>
+        <tr>
+            <td style="text-align: center;"><input type="text" id="txttitlu" /></td>
+
+        </tr>
+    </table>
+
+    <table style="margin: auto;">
+        <tr>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma</td>
+            <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Valuta</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><input type="text" id="txttitlu" /></td>
+            <td style="text-align: left; ">
+                <select id="txtalegecategoria">
+                    <option value="optiune1">USD</option>
+                    <option value="optiune2">Euro</option>
+                    <option value="optiune3">MDL</option>
+                    <!-- Adaugă alte opțiuni după necesitate -->
+                </select>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <!-- Celelalte câmpuri de intrare -->
+    <!-- Adaugă aici tabelurile pentru celelalte câmpuri de intrare -->
+</form>
+
+
+
