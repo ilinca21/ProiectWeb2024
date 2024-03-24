@@ -22,23 +22,23 @@ namespace proiect.Controllers
             _session = bl.GetSessionBL();
         }
 
-        public ActionResult LogIn()
+        public ActionResult LoginPage()
         {
-            var ULoginData = new ULoginData
-            {
-                Credential = "user",
-                Password = "password",
-                LoginIp = " ",
-                LoginDateTime = DateTime.Now
-            };
-            var test = _session.UserLoginAction(ULoginData);
+           // var ULoginData = new ULoginData
+            //{
+              //  Credential = "user",
+                //Password = "password",
+                //LoginIp = " ",
+                //LoginDateTime = DateTime.Now
+            //};
+            //var test = _session.UserLoginAction(ULoginData);
             return View();
         }
         
         //Get : Login
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult LogIn(UserLogin data)
+        public ActionResult LoginPage(UserLogin data)
         {
             if (ModelState.IsValid)
             {

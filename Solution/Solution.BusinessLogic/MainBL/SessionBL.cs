@@ -19,7 +19,7 @@ namespace Solution.BusinessLogic.MainBL
 
             using (var db = new UserContext())
             {
-                user = (from u in db.Users where u.UserName == data.Credential select u).FirstOrDefault();
+                user = db.Users.FirstOrDefault(u => u.UserName == data.Credential);
             }
             return RLoginUpService(data);
         }

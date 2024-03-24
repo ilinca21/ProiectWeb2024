@@ -3041,8 +3041,8 @@
     <Content Include="Views\Shared\_LayoutPageFAQ.cshtml" />
     <Content Include="Views\Home\PageFAQ.cshtml" />
     <Content Include="Views\ViewDonatorType\TypePage.cshtml" />
-    <Content Include="Views\Home\LoginPage.cshtml" />
-    <Content Include="Views\Home\CreateAccount.cshtml" />
+    <Content Include="Views\Login\LoginPage.cshtml" />
+    <Content Include="Views\Register\CreateAccount.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

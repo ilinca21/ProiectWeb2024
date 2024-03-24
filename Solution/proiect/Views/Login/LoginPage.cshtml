@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutLogIn.cshtml";
+}
+@model proiect.Models.User.UserLogin
+<div class="container">
+
+    <section class="section register min-vh-100 d-flex flex-column align-items-right justify-content-right py-1">
+        <div class="container">
+
+            <div class="row justify-content-end ml-auto">
+                <div class="col-lg-5 col-md-15 d-flex flex-column align-items-right justify-content-left mt-3">
+
+                    <div class="d-flex justify-content-center py-">
+                        <a href="index.html" class="logo d-flex align-items-center w-auto">
+                            <img src="~/assets/img/insigna.png" alt="">
+                            <span class="d-none d-lg-block">Salvează o viață</span>
+                        </a>
+                    </div><!-- End Logo -->
+
+                    <div class="card mb-3">
+
+                        <div class="card-body">
+
+                            <div class="pt-4 pb-2">
+                                <h5 class="card-title text-center pb-5 fs-4">Autentifică-te în contul tău</h5>
+
+                            </div>
+
+                            <form class="row g-3 needs-validation" novalidate>
+
+                                <div class="col-12">
+                                    <label for="yourUsername" class="form-label">Nume</label>
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text" id="inputGroupPrepend"></span>
+                                        <input type="text" name="username" class="form-control" id="yourUsername" required>
+                                        <div class="invalid-feedback">Please enter your username.</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="yourPassword" class="form-label">Parola</label>
+                                    <input type="password" name="password" class="form-control" id="yourPassword" required>
+                                    <div class="invalid-feedback">Please enter your password!</div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
+                                        <label class="form-check-label" for="rememberMe">Ține-mă minte</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-warning text-dark fw-bold w-100" type="submit" style="background-color: #f8c50e; color: black; ">Intră în cont</button>
+                                </div>
+                                <div class="col-12">
+                                    <p class="small mb-0">Nu ai un cont? <a href="pages-register.html"> Creează un cont </a></p>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="credits">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<form method="post">
+    @using (Html.BeginForm("LoginPage", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <h3>Log in</h3>
+
+        <label for="Credential">Username</label>
+        @Html.TextBoxFor(UserLogin => UserLogin.Credential, new { @class = "form-control", placeholder = "Email or Phone", maxlength = "10" })
+        @Html.ValidationMessageFor(UserLogin => UserLogin.Credential, "", new { @class = "text-danger" })
+
+        <label for="Password">Password</label>
+        @Html.PasswordFor(UserLogin => UserLogin.Password, new { @class = "form-control", placeholder = "Password" })
+        @Html.ValidationMessageFor(UserLogin => UserLogin.Password, "", new { @class = "text-danger" })
+
+        <div class="sign-in">
+            <small><a href="@Url.Action("CreateAccount", "Register")">Register</a></small>
+        </div>
+    }
+</form>
+
+
+
