@@ -46,6 +46,10 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult PageContact()
+        {
+            return View();
+        }
 
     }
 }

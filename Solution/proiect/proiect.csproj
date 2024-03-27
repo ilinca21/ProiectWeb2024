@@ -3045,6 +3045,8 @@
     <Content Include="Views\Register\CreateAccount.cshtml" />
     <Content Include="Views\Shared\_LayoutAdaugareCaz.cshtml" />
     <Content Include="Views\Home\PageAdaugareCaz.cshtml" />
+    <Content Include="Views\Shared\_LayoutContact.cshtml" />
+    <Content Include="Views\Home\PageContact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
