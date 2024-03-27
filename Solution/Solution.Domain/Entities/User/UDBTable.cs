@@ -30,7 +30,7 @@ namespace Solution.Domain.Entities.User
         public DateTime LastLogin { get; set; }
 
         [StringLength(30)]
-        public string LasIp { get; set; }
+        public string LastIp { get; set; }
 
         public UserRole Level { get; set; }
     }

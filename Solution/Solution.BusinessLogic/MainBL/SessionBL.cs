@@ -15,12 +15,6 @@ namespace Solution.BusinessLogic.MainBL
     {
         public ULoginResp UserLoginAction(ULoginData data)
         {
-            UDBTable user;
-
-            using (var db = new UserContext())
-            {
-                user = db.Users.FirstOrDefault(u => u.UserName == data.Credential);
-            }
             return RLoginUpService(data);
         }
 

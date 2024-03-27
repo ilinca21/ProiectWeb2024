@@ -4,3 +4,9 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Soluti
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.csproj.CoreCompileInputs.cache
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.dll
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Helpers\bin\Debug\Solution.Helpers.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Helpers\bin\Debug\Solution.Helpers.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.csproj.AssemblyReference.cache
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Helpers\obj\Debug\Solution.Helpers.pdb

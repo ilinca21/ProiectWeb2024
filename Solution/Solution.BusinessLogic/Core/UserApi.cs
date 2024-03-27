@@ -23,11 +23,13 @@ namespace Solution.BusinessLogic.Core
 
             //RETURN SESSION AND STATUS TRUE
 
-
-            //using (var db = new UserContext() )
-            // {
-            //     UDBTable user = db.Users.FirstOrDefault(us => us.UserName == data.Credential);
-            //   }
+            UDBTable user;
+            using (var db = new UserContext() )
+            {
+               user = db.Users.FirstOrDefault(us => us.UserName == data.Credential);
+                if(user == null) return new ULoginResp { Status = false };
+                if (user.Password == data.Password) return new ULoginResp { Status = true };
+            }
 
             return new ULoginResp { Status = false };
         }
@@ -38,7 +40,7 @@ namespace Solution.BusinessLogic.Core
             {
                 UserName = data.UserName,
                 Password = data.Password,
-                LasIp = "",
+                LastIp = "",
                 LastLogin = DateTime.Now,
                 Level = UserRole.User
             };
