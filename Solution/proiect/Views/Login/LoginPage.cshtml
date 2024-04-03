@@ -32,18 +32,16 @@
                                 @using (Html.BeginForm("LoginPage", "Login", FormMethod.Post))
                                 {
                                     @Html.AntiForgeryToken()
-                                    <h3>Log in</h3>
-
-                                    <label for="Credential">Username</label>
-                                    @Html.TextBoxFor(UserLogin => UserLogin.Credential, new { @class = "form-control", placeholder = "Email or Phone", maxlength = "10" })
+                                    <label for="Credential">Nume de utilizator</label>
+                                    @Html.TextBoxFor(UserLogin => UserLogin.Credential, new { @class = "form-control", placeholder = "Nume", maxlength = "10" })
                                     @Html.ValidationMessageFor(UserLogin => UserLogin.Credential, "", new { @class = "text-danger" })
 
-                                    <label for="Password">Password</label>
-                                    @Html.PasswordFor(UserLogin => UserLogin.Password, new { @class = "form-control", placeholder = "Password" })
+                                    <label for="Password">Parola</label>
+                                    @Html.PasswordFor(UserLogin => UserLogin.Password, new { @class = "form-control", placeholder = "Parola" })
                                     @Html.ValidationMessageFor(UserLogin => UserLogin.Password, "", new { @class = "text-danger" })
 
                                     <div class="sign-in">
-                                        <small><a href="@Url.Action("CreateAccount", "Register")">Register</a></small>
+                                        <small><a href="@Url.Action("CreateAccount", "Register")">Nu ai un cont? Înregistrează-te</a></small>
                                     </div>
                                 <div class="col-12">
                                     <div class="form-check">
@@ -53,9 +51,6 @@
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-warning text-dark fw-bold w-100" type="submit" style="background-color: #f8c50e; color: black; ">Intra in cont</button>
-                                </div>
-                                <div class="col-12">
-                                    <p class="small mb-0">Nu ai un cont? <a href="pages-register.html"> Creează un cont </a></p>
                                 </div>
                                 }
                             </form>
