@@ -59,6 +59,10 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult PageDonatieLunar()
+        {
+            return View();
+        }
 
     }
 }

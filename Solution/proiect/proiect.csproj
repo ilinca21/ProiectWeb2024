@@ -3050,6 +3050,8 @@
     <Content Include="Views\Home\PageDesprenoi.cshtml" />
     <Content Include="Views\Shared\_LayoutTestimoniale.cshtml" />
     <Content Include="Views\Home\PageTestimoniale.cshtml" />
+    <Content Include="Views\Shared\_LayoutDonatieLunar.cshtml" />
+    <Content Include="Views\Home\PageDonatieLunar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
