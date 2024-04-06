@@ -55,5 +55,10 @@ namespace proiect.Controllers
             return View();
         }
 
+        public ActionResult PageTestimoniale()
+        {
+            return View();
+        }
+
     }
 }
