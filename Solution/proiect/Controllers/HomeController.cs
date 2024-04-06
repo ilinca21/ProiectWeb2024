@@ -50,6 +50,10 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult Desprenoi()
+        {
+            return View();
+        }
 
     }
 }
