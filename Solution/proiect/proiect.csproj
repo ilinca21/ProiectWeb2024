@@ -3046,6 +3046,8 @@
     <Content Include="Views\Home\PageAdaugareCaz.cshtml" />
     <Content Include="Views\Shared\_LayoutContact.cshtml" />
     <Content Include="Views\Home\PageContact.cshtml" />
+    <Content Include="Views\Shared\_LayoutDesprenoi.cshtml" />
+    <Content Include="Views\Home\PageDesprenoi.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
