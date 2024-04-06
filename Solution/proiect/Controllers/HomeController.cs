@@ -50,7 +50,7 @@ namespace proiect.Controllers
         {
             return View();
         }
-        public ActionResult Desprenoi()
+        public ActionResult PageDesprenoi()
         {
             return View();
         }
