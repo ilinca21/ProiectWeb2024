@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -59,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutcreateaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -106,23 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "proiect\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "proiect\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAswDwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T18:20:32.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_LayoutTestimoniale.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutTestimoniale.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutTestimoniale.cshtml",
@@ -134,20 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Navigation.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Navigation.cshtml",
               "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_Navigation.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-24T20:51:54.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PageDonatieLunar.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDonatieLunar.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageDonatieLunar.cshtml",
@@ -155,12 +143,11 @@
               "RelativeToolTip": "proiect\\Views\\Home\\PageDonatieLunar.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEsAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T16:32:35.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T16:32:35.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_LayoutDonatieLunar.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
@@ -172,7 +159,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "proiect\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T17:55:42.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "proiect\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "proiect\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T18:20:32.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PageTestimoniale.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageTestimoniale.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageTestimoniale.cshtml",
@@ -184,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_LayoutLogIn.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
@@ -196,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PageFAQ.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageFAQ.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageFAQ.cshtml",
@@ -208,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_LayoutAdaugareCaz.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutAdaugareCaz.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutAdaugareCaz.cshtml",
@@ -220,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PageAdaugareCaz.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageAdaugareCaz.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageAdaugareCaz.cshtml",
@@ -232,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PageDesprenoi.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDesprenoi.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageDesprenoi.cshtml",
@@ -244,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_LayoutDesprenoi.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
@@ -256,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PageContact.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageContact.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageContact.cshtml",
@@ -269,18 +281,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T17:55:42.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "_LayoutCreateAccount.cshtml",
               "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutCreateAccount.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutCreateAccount.cshtml",

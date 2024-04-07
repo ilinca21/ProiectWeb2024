@@ -1,17 +1,46 @@
 ﻿@using System.Web.Optimization
 @model proiect.Models.UserData
 @{
-
     ViewBag.Title = "Index";
-
 }
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <style>
+        /* Stilizare butoane */
+        .btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            text-align: center; /* Centrare text */
+            line-height: 1.5; /* Spațiere între liniile de text */
+        }
+
+            .btn:hover {
+                background-color: #f8c50e;
+                color: #000000;
+            }
+
+        /* Stilizare wrapper pentru tabele */
+        .table-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px; /* Spațiu între tabele și textul de mai sus */
+        }
+
+        /* Stilizare coloane pentru tabele */
+        .table-col {
+            margin: 0 15px; /* Reducerea spațiului dintre coloane */
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: #D3D3D3;">
 
     <div>
 
@@ -19,11 +48,39 @@
 
             <p>@ViewBag.MyCustomSentence</p>
         </div>
-        <p style="margin-top: 500px; opacity: 1.6; text-align: left; font-size: 32px; font-weight: bold; color: black; display: inline-block; padding: 6px; font-family: 'Times New Roman', Times, serif; ">Donează pentru a aduce zâmbetul în viața altora. Fiecare contribuție contează!</p>
+        <p style="opacity: 1.6; text-align: left; font-size: 32px; font-weight: bold; color: black; display: inline-block; padding: 6px; font-family: 'Times New Roman', Times, serif; ">Donează pentru a aduce zâmbetul în viața altora. Fiecare contribuție contează!</p>
 
     </div>
+    <section class="ftco-counter ftco-intro" id="section-counter">
+        <div class="container">
+            <div class="table-wrapper">
+                <div class="table-col">
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 color-2 align-items-stretch" style="background-color: #fd7e14; color: black; ">
+                            <div class="text">
+                                <h3 class="mb-4">Donează bani</h3>
+                                <p>Un mic gest de donație poate face o mare diferență în viețile celor care au nevoie. Fiecare contribuție, indiferent cât de mică, contează în construirea unui viitor mai bun pentru cei în nevoie.</p>
+                                <!-- Modificare link pentru a arăta ca un buton -->
+                                <a href="#" class="btn">Donează acum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-col">
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 color-3 align-items-stretch" style="background-color: #fd7e14; color: black; ">
+                            <div class="text">
+                                <h3 class="mb-4">Devin-o voluntar</h3>
+                                <p>Bucuria de a dărui este una fără egal. Prin fiecare act de voluntariat, nu numai că îți oferi timpul și abilitățile, dar contribui și la transformarea pozitivă a vieții altora. Fii voluntar și descoperă bucuria în a face o diferență reală în lume!</p>
+                                <!-- Modificare link pentru a arăta ca un buton -->
+                                <a href="#" class="btn">Devin-o voluntar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
-
-
 </html>
