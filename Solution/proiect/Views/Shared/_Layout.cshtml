@@ -21,13 +21,6 @@
         @RenderBody()
         @Html.Partial("_Footer")
     </main>
-
-    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-
-    <footer>
-        <p>&copy; @DateTime.Now.Year</p>
-    </footer>
-
     @Scripts.Render("~/bundles/navbar/js")
     @RenderSection("scripts", required: false)
         

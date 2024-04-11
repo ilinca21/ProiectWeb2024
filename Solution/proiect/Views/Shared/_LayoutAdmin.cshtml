@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "_LayoutAdmin";
+}
+@using System.Web.Optimization;
+<!DOCTYPE html>
+<html>
+<head>
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+    @Styles.Render("~/bundles/bootstrap/css")
+
+</head>
+<body>
+
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        @Html.Partial("_Header")
+    </header>
+
+    <aside id="sidebar" class="sidebar">
+        @Html.Partial("_Navigation")
+    </aside>
+
+    <main id="main" class="main">
+        @RenderBody()
+        @Html.Partial("_Footer")
+    </main>
+    @Scripts.Render("~/bundles/navbar/js")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

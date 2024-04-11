@@ -13,7 +13,7 @@ namespace Solution.Domain.Entities.User
 
         [Required]
         [Display(Name = "UserName")]
-        [StringLength(30, MinimumLength = 6, ErrorMessage = "UserName cannot be longer than 30 characters")]
+        [StringLength(30, MinimumLength = 6, ErrorMessage = "UserName cannot be longer than 50 characters")]
         public string UserName { get; set; }
 
         [Required]

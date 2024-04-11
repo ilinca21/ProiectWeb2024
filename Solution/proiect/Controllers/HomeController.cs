@@ -1,4 +1,5 @@
-﻿using proiect.Models;
+﻿using proiect.Extensions;
+using proiect.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +8,29 @@ using System.Web.Mvc;
 
 namespace proiect.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         // GET: Home
         public ActionResult Index()
         {
-            ViewBag.Title = "Index";
+            string role = SessionStatus();
+            if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] != "login")
+            {
+                return View();
+            }
+            else
+            {
+                if (role == "Admin")
+                    return RedirectToAction("IndexAdmin", "Admin");
+                else
+                    return RedirectToAction("IndexUserLogin", "UserLogin");
 
-
+            }
+        }
+        public ActionResult IndexAdmin()
+        {
             return View();
         }
-
         public ActionResult UserPage()
         {
             return View();

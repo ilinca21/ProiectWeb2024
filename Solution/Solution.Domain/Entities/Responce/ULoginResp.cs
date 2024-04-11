@@ -10,5 +10,6 @@ namespace Solution.Domain.Entities.Responce
     {
         public string ActionStatusMsg { get; set; }
         public bool Status { get; set; }
+        public string Message { get; set; }
     }
 }

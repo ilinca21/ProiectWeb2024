@@ -30,3 +30,8 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\EntityFramework.xml
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\AutoMapper.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\System.ValueTuple.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\AutoMapper.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\AutoMapper.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\System.ValueTuple.xml

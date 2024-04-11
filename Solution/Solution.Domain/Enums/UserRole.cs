@@ -8,8 +8,8 @@ namespace Solution.Domain.Enums
 {
     public enum UserRole
     {
-        None,
-        User,
-        Admin
+        None = 0,
+        User = 1,
+        Admin = 2
     }
 }

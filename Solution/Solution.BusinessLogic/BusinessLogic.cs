@@ -14,10 +14,6 @@ namespace Solution.BusinessLogic.MainBL
         {
             return new SessionBL();
         }
-
-        public IDonatorType GetDonatorTypeBL()
-        {
-            return new DonatorTypeBL();
-        }
     }
 }
+

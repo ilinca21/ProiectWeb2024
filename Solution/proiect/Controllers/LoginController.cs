@@ -1,4 +1,5 @@
-﻿using proiect.Models.User;
+﻿using AutoMapper;
+using proiect.Models.User;
 using Solution.BusinessLogic;
 using Solution.BusinessLogic.Interfaces;
 using Solution.BusinessLogic.MainBL;
@@ -6,9 +7,11 @@ using Solution.Domain.Entities.Responce;
 using Solution.Domain.Entities.User;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace proiect.Controllers
 {
@@ -24,17 +27,23 @@ namespace proiect.Controllers
 
         public ActionResult LoginPage()
         {
-           // var ULoginData = new ULoginData
-            //{
-              //  Credential = "user",
-                //Password = "password",
-                //LoginIp = " ",
-                //LoginDateTime = DateTime.Now
-            //};
-            //var test = _session.UserLoginAction(ULoginData);
             return View();
         }
-        
+        public ActionResult LogOut()
+        {
+            Session.Abandon();
+            FormsAuthentication.SignOut();
+            if (Response.Cookies["X-KEY"] != null)
+            {
+                var cookie = new HttpCookie("X-KEY")
+                {
+                    Expires = DateTime.Now.AddDays(-1),
+                    HttpOnly = true
+                };
+                Response.Cookies.Add(cookie);
+            }
+            return RedirectToAction("LoginPage", "Login");
+        }
         //Get : Login
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -42,27 +51,28 @@ namespace proiect.Controllers
         {
             if (ModelState.IsValid)
             {
-                ULoginData uData = new ULoginData
-                {
-                    Credential = data.Credential,
-                    Password = data.Password,
-                    LoginIp = Request.UserHostAddress,
-                    LoginDateTime = DateTime.Now
-                };
-                ULoginResp resp = _session.UserLoginAction(uData);
+                var dataUser = Mapper.Map<ULoginData>(data);
+
+                dataUser.LoginIp = Request.UserHostAddress;
+                dataUser.LoginDateTime = DateTime.Now;
+
+                ULoginResp resp = _session.UserLoginAction(dataUser);
                 if (resp.Status)
                 {
-                    //ADD COOCKIE
-
+                    HttpCookie cookie = _session.GenCookie(data.Credential);
+                    ControllerContext.HttpContext.Response.Cookies.Add(cookie);
+                    Session["UserName"] = data.Credential;
+                    if (resp.Message == "Admin")
+                        return RedirectToAction("IndexAdmin", "Admin");
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
-                    ModelState.AddModelError("", resp.ActionStatusMsg);
-                    return View();
+                    ModelState.AddModelError("", resp.Message);
+                    return View(data);
                 }
             }
-            return View();
+            return View(data);
         }
     }
 }

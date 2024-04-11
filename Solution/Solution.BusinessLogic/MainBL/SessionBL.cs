@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace Solution.BusinessLogic.MainBL
 {
@@ -21,6 +22,15 @@ namespace Solution.BusinessLogic.MainBL
         public ULoginResp RegisterNewUserAction(URegisterData regData)
         {
             return RRegisterNewUserAction(regData);
+        }
+        public HttpCookie GenCookie(string loginCredential)
+        {
+            return Cookie(loginCredential);
+        }
+
+        public UserMinimal GetUserByCookie(string apiCookieValue)
+        {
+            return UserCookie(apiCookieValue);
         }
     }
 }

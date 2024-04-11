@@ -32,20 +32,25 @@
                                 {
                                     @Html.AntiForgeryToken()
                                     <div class="col-12">
-                                        <label for="yourName" class="form-label">Nume</label>
-                                        @Html.TextBoxFor(UserRegister => UserRegister.Credential, new { @class = "form-control", placeholder = "Email or Phone", maxlength = "10" })
+                                        <label for="yourName" class="form-label">Username</label>
+                                        @Html.TextBoxFor(UserRegister => UserRegister.Credential, new { @class = "form-control", placeholder = "Email", maxlength = "20" })
                                         @Html.ValidationMessageFor(UserRegister => UserRegister.Credential, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="email" class="form-label">Email</label>
+                                        @Html.TextBoxFor(UserRegister => UserRegister.Email, new { @class = "form-control", placeholder = "Email", maxlength = "20" })
+                                        @Html.ValidationMessageFor(UserRegister => UserRegister.Email, "", new { @class = "text-danger" })
                                     </div>
 
                                     <div class="col-12">
                                         <label for="yourPassword" class="form-label">Parola</label>
-                                        @Html.PasswordFor(UserRegister => UserRegister.Password, new { @class = "form-control", placeholder = "Password" })
+                                        @Html.PasswordFor(UserRegister => UserRegister.Password, new { @class = "form-control", placeholder = "Parola" })
                                         @Html.ValidationMessageFor(UserRegister => UserRegister.Password, "", new { @class = "text-danger" })
 
                                     </div>
                                     <div class="col-12">
                                         <label for="yourPassword" class="form-label">Confirma parola</label>
-                                        @Html.PasswordFor(UserRegister => UserRegister.ConfirmPassword, new { @class = "form-control", placeholder = "Password" })
+                                        @Html.PasswordFor(UserRegister => UserRegister.ConfirmPassword, new { @class = "form-control", placeholder = "Parola" })
                                         @Html.ValidationMessageFor(UserRegister => UserRegister.ConfirmPassword, "", new { @class = "text-danger" })
 
                                     </div>
@@ -61,10 +66,9 @@
                                         <button class="btn btn-warning text-dark fw-bold w-100" type="submit" style="background-color: #f8c50e; color: black; ">Creează cont</button>
                                     </div>
                                     <div class="col-12">
-                                        <p class="small mb-0">Ai deja un cont? <a href="pages-login.html">Autentifică-te</a></p>
                                     </div>
                                 }
-                                </form>
+                            </form>
 
                         </div>
                     </div>
