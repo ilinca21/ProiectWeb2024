@@ -393,3 +393,12 @@ C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\AutoMapper.xml
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\System.ValueTuple.xml
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Helpers.pdb
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\AutoMapper.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\System.ValueTuple.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Helpers.dll
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\AutoMapper.pdb
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\AutoMapper.xml
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\System.ValueTuple.xml
+C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Helpers.pdb
