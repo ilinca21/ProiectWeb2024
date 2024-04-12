@@ -77,5 +77,10 @@ namespace proiect.Controllers
             return View();
         }
 
+        public ActionResult PageProfilulMeu()
+        {
+            return View();
+        }
+
     }
 }
