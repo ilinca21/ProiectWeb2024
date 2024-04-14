@@ -353,7 +353,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 .logo {
-  line-height: 1;
+    line-height: 1;
 }
 
 @media (min-width: 1200px) {
@@ -476,9 +476,10 @@ h6 {
   color: #000000;
 }
 
-.header-nav .nav-profile img {
-  max-height: 45px;
-}
+    .header-nav .nav-profile img {
+        max-height: 45px;
+    }
+
 
 .header-nav .nav-profile span {
   font-size: 14px;

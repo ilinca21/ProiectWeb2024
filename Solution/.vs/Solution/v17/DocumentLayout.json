@@ -1,297 +1,273 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\",
+  "WorkspaceRootPath": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\gestionarecazuri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\gestionarecazuri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\adaugarecazadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adaugarecazadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\_navbaruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\_navbaruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\indexuserlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\indexuserlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_navigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\_navbaradmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\_navbaradmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\adaugarestire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adaugarestire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\profilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\profilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\ilincut\\desktop\\proiectweb2024\\solution\\proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\cazurifinisateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\cazurifinisateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\cazuriurgenteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\cazuriurgenteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\cazurifinisateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\cazurifinisateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\cazuriurgenteadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\cazuriurgenteadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\adminprofil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adminprofil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\admin\\adaugaretestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adaugaretestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\toatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\toatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\home\\pagetoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagetoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagetestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagetestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\testimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\testimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pageprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pageprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\donatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\donatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\desprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\desprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagedesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagedesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\userlogin\\adaugarecaz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\adaugarecaz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutpagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutpagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layouttoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layouttoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\shared\\_layoutprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\verifyrole\\isloginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\verifyrole\\isloginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\verifyrole\\isadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\verifyrole\\isadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|c:\\users\\tanea\\desktop\\proiectweb2024\\solution\\proiect\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\attributes\\adminmodattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\attributes\\adminmodattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\login\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\register\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\register\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\responce\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\responce\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\dbmodel\\seed\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\dbmodel\\seed\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\dbmodel\\seed\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\dbmodel\\seed\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\businesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\businesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\user\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\models\\user\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\user\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\models\\user\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\_navbaruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\_navbaruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\_navbaradmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\_navbaradmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\adaugarestire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adaugarestire.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\profilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\profilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\cazurifinisateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\cazurifinisateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\cazuriurgenteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\cazuriurgenteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\cazurifinisateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\cazurifinisateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\cazuriurgenteadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\cazuriurgenteadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\adminprofil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adminprofil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\admin\\adaugaretestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\admin\\adaugaretestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\toatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\toatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagetoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagetoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagetestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagetestimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\testimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\testimoniale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pageprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pageprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\donatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\donatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagedonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\desprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\desprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\home\\pagedesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\home\\pagedesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\userlogin\\adaugarecaz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\userlogin\\adaugarecaz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutpagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutpagefaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layouttoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layouttoatecazurile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutprofilulmeu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\verifyrole\\isloginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\verifyrole\\isloginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\verifyrole\\isadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\verifyrole\\isadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\attributes\\adminmodattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\attributes\\adminmodattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\register\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\register\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\responce\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\responce\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\dbmodel\\seed\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\dbmodel\\seed\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\dbmodel\\seed\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\dbmodel\\seed\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\businesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\businesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F310FD0-3178-4990-AF62-8BBC28CA6B85}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\user\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\models\\user\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\user\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\models\\user\\userregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\solution.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F77D6C-95F8-4DC4-9A06-C25A9060755A}|Solution.BusinessLogic\\Solution.BusinessLogic.csproj|solutionrelative:solution.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutdonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutdonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutdonatielunar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutdesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\views\\shared\\_layoutdesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\views\\shared\\_layoutdesprenoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{CE9276A4-A977-4710-832C-C57F15202AE9}|proiect\\proiect.csproj|solutionrelative:proiect\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -302,119 +278,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_NavbarUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
-              "RelativeToolTip": "proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAmAAAA",
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "proiect\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T14:15:16.714Z",
+              "WhenOpened": "2024-04-14T13:52:46.13Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "proiect\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "proiect\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwC8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T12:12:37.441Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-05T17:55:42.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAHAAAA",
+              "DocumentIndex": 8,
+              "Title": "_NavbarUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
+              "RelativeToolTip": "proiect\\Views\\UserLogin\\_NavbarUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T17:18:38.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T14:15:16.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestionareCazuri.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\GestionareCazuri.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Admin\\GestionareCazuri.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\GestionareCazuri.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Admin\\GestionareCazuri.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "DocumentIndex": 9,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:07:38.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T14:15:40.924Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdaugareCazAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareCazAdmin.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Admin\\AdaugareCazAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareCazAdmin.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Admin\\AdaugareCazAdmin.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:51:03.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IndexUserLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\IndexUserLogin.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\IndexUserLogin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\IndexUserLogin.cshtml",
-              "RelativeToolTip": "proiect\\Views\\UserLogin\\IndexUserLogin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:20:38.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Navigation.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Navigation.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Navigation.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Shared\\_Navigation.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAFAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T20:51:54.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutUser.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T14:15:40.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "IndexAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\IndexAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\IndexAdmin.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Admin\\IndexAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\IndexAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\IndexAdmin.cshtml",
               "RelativeToolTip": "proiect\\Views\\Admin\\IndexAdmin.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -423,466 +357,444 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_NavbarAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:58:52.055Z",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "proiect\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "proiect\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T17:47:56.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "proiect\\assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\css\\style.css",
+              "RelativeToolTip": "proiect\\assets\\css\\style.css",
+              "ViewState": "AQIAAFwBAAAAAAAAAAAAAGMBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T15:46:09.78Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "proiect\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "proiect\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T18:20:32.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "proiect\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "proiect\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:12:46.942Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AdaugareStire.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareStire.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Admin\\AdaugareStire.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareStire.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Admin\\AdaugareStire.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "_NavbarAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
+              "RelativeToolTip": "proiect\\Views\\Admin\\_NavbarAdmin.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:19:42.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:58:52.055Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ProfilulMeu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
-              "RelativeToolTip": "proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMIAAAAAAAAA",
+              "Title": "AdaugareStire.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareStire.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\Admin\\AdaugareStire.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareStire.cshtml",
+              "RelativeToolTip": "proiect\\Views\\Admin\\AdaugareStire.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:28:33.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:19:42.729Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Header.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Title": "ProfilulMeu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
+              "RelativeToolTip": "proiect\\Views\\UserLogin\\ProfilulMeu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:52:46.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:28:33.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "_Footer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_Footer.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_Footer.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_Footer.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T14:19:55.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T14:19:55.035Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "CazuriFinisateUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriFinisateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriFinisateUser.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\CazuriFinisateUser.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriFinisateUser.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriFinisateUser.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\CazuriFinisateUser.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:57:52.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:57:52.647Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "CazuriUrgenteUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriUrgenteUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriUrgenteUser.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\CazuriUrgenteUser.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriUrgenteUser.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\CazuriUrgenteUser.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\CazuriUrgenteUser.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:57:35.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:57:35.033Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "CazuriFinisateAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriFinisateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriFinisateAdmin.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Admin\\CazuriFinisateAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriFinisateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriFinisateAdmin.cshtml",
               "RelativeToolTip": "proiect\\Views\\Admin\\CazuriFinisateAdmin.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:57:17.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:57:17.844Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "CazuriUrgenteAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriUrgenteAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriUrgenteAdmin.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Admin\\CazuriUrgenteAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriUrgenteAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\CazuriUrgenteAdmin.cshtml",
               "RelativeToolTip": "proiect\\Views\\Admin\\CazuriUrgenteAdmin.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:56:40.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:56:40.777Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "AdminProfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdminProfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdminProfil.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Admin\\AdminProfil.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdminProfil.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdminProfil.cshtml",
               "RelativeToolTip": "proiect\\Views\\Admin\\AdminProfil.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:59:35.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:59:35.544Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "AdaugareTestimoniale.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareTestimoniale.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareTestimoniale.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Admin\\AdaugareTestimoniale.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareTestimoniale.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Admin\\AdaugareTestimoniale.cshtml",
               "RelativeToolTip": "proiect\\Views\\Admin\\AdaugareTestimoniale.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:10:42.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:10:42.505Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "UserLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\UserLoginController.cs",
               "RelativeDocumentMoniker": "proiect\\Controllers\\UserLoginController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\UserLoginController.cs",
               "RelativeToolTip": "proiect\\Controllers\\UserLoginController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T10:36:36.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T10:36:36.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "ToateCazurile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ToateCazurile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ToateCazurile.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\ToateCazurile.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ToateCazurile.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\ToateCazurile.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\ToateCazurile.cshtml",
               "ViewState": "AQIAAFUAAAAAAAAAAAAYwKQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:29:05.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:29:05.682Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "PageToateCazurile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageToateCazurile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageToateCazurile.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageToateCazurile.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageToateCazurile.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageToateCazurile.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\PageToateCazurile.cshtml",
               "ViewState": "AQIAAJMAAAAAAAAAAAAAAKEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T20:28:12.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T20:28:12.319Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "PageTestimoniale.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageTestimoniale.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageTestimoniale.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageTestimoniale.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageTestimoniale.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageTestimoniale.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\PageTestimoniale.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T16:02:41.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T16:02:41.03Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Testimoniale.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Testimoniale.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Testimoniale.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\Testimoniale.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Testimoniale.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Testimoniale.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\Testimoniale.cshtml",
               "ViewState": "AQIAAGEAAAAAAAAAAAAYwIMAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:28:48.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:28:48.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "PageProfilulMeu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageProfilulMeu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageProfilulMeu.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageProfilulMeu.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageProfilulMeu.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageProfilulMeu.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\PageProfilulMeu.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T20:32:16.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T20:32:16.898Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "PageFAQ.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageFAQ.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageFAQ.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageFAQ.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageFAQ.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageFAQ.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\PageFAQ.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T18:06:27.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T18:06:27.726Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "FAQ.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\FAQ.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\FAQ.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\FAQ.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\FAQ.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\FAQ.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\FAQ.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:28:15.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:28:15.965Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Donatielunar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Donatielunar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Donatielunar.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\Donatielunar.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Donatielunar.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Donatielunar.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\Donatielunar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:27:53.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:27:53.886Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "PageDonatieLunar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDonatieLunar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDonatieLunar.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageDonatieLunar.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDonatieLunar.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDonatieLunar.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\PageDonatieLunar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T16:32:35.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T16:32:35.091Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "Desprenoi.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Desprenoi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Desprenoi.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\Desprenoi.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Desprenoi.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Desprenoi.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\Desprenoi.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:27:01.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:27:01.312Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "PageDesprenoi.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDesprenoi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDesprenoi.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Home\\PageDesprenoi.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDesprenoi.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Home\\PageDesprenoi.cshtml",
               "RelativeToolTip": "proiect\\Views\\Home\\PageDesprenoi.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T15:19:40.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T15:19:40.973Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Contact.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\Contact.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\Contact.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:26:41.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:26:41.951Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "AdaugareCaz.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\AdaugareCaz.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\AdaugareCaz.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\UserLogin\\AdaugareCaz.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\AdaugareCaz.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\UserLogin\\AdaugareCaz.cshtml",
               "RelativeToolTip": "proiect\\Views\\UserLogin\\AdaugareCaz.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:26:23.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:26:23.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "_LayoutToateCazurile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutToateCazurile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutToateCazurile.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutToateCazurile.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutToateCazurile.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutToateCazurile.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutToateCazurile.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T20:27:24.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T20:27:24.182Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "_LayoutPageFAQ.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutPageFAQ.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutPageFAQ.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutPageFAQ.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutPageFAQ.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutPageFAQ.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutPageFAQ.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T18:33:29.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T18:33:29.455Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "proiect\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\AdminController.cs",
               "RelativeToolTip": "proiect\\Controllers\\AdminController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T10:25:01.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T10:25:01.812Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "_LayoutProfilulMeu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutProfilulMeu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutProfilulMeu.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutProfilulMeu.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutProfilulMeu.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutProfilulMeu.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutProfilulMeu.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T20:31:33.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "proiect\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:26:28.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T20:31:33.542Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "IsAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsAdmin.cs",
-              "RelativeDocumentMoniker": "proiect\\VerifyRole\\IsAdmin.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsAdmin.cs",
-              "RelativeToolTip": "proiect\\VerifyRole\\IsAdmin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:28:49.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "proiect\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "proiect\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T18:20:32.23Z",
-              "EditorCaption": ""
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "proiect\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "proiect\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T12:26:28.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "IsLoginUser.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsLoginUser.cs",
-              "RelativeDocumentMoniker": "proiect\\VerifyRole\\IsLoginUser.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsLoginUser.cs",
-              "RelativeToolTip": "proiect\\VerifyRole\\IsLoginUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Title": "IsAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsAdmin.cs",
+              "RelativeDocumentMoniker": "proiect\\VerifyRole\\IsAdmin.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsAdmin.cs",
+              "RelativeToolTip": "proiect\\VerifyRole\\IsAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:29:07.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:28:49.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 38,
+              "Title": "IsLoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsLoginUser.cs",
+              "RelativeDocumentMoniker": "proiect\\VerifyRole\\IsLoginUser.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\VerifyRole\\IsLoginUser.cs",
+              "RelativeToolTip": "proiect\\VerifyRole\\IsLoginUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:29:07.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "AdminModAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Attributes\\AdminModAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Attributes\\AdminModAttribute.cs",
               "RelativeDocumentMoniker": "proiect\\Attributes\\AdminModAttribute.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Attributes\\AdminModAttribute.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Attributes\\AdminModAttribute.cs",
               "RelativeToolTip": "proiect\\Attributes\\AdminModAttribute.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwBMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T10:16:02.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T10:16:02.513Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "proiect\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "proiect\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwD4AAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T11:12:46.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
               "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\js\\main.js",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\js\\main.js",
               "RelativeDocumentMoniker": "proiect\\assets\\js\\main.js",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\js\\main.js",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\assets\\js\\main.js",
               "RelativeToolTip": "proiect\\assets\\js\\main.js",
               "ViewState": "AQIAAD4BAAAAAAAAAAAwwFEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -890,11 +802,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 43,
               "Title": "CreateAccount.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Register\\CreateAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Register\\CreateAccount.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Register\\CreateAccount.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Register\\CreateAccount.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Register\\CreateAccount.cshtml",
               "RelativeToolTip": "proiect\\Views\\Register\\CreateAccount.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -902,23 +814,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "LoginPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Login\\LoginPage.cshtml",
-              "RelativeDocumentMoniker": "proiect\\Views\\Login\\LoginPage.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Login\\LoginPage.cshtml",
-              "RelativeToolTip": "proiect\\Views\\Login\\LoginPage.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T11:10:32.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 44,
               "Title": "UserApi.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\UserApi.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\UserApi.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\Core\\UserApi.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\UserApi.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\UserApi.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\Core\\UserApi.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAQwF8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -926,11 +826,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 48,
               "Title": "AdminApi.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\AdminApi.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\AdminApi.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\Core\\AdminApi.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\AdminApi.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Core\\AdminApi.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\Core\\AdminApi.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -938,11 +838,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 47,
               "Title": "ULoginResp.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Responce\\ULoginResp.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Responce\\ULoginResp.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Entities\\Responce\\ULoginResp.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Responce\\ULoginResp.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Responce\\ULoginResp.cs",
               "RelativeToolTip": "Solution.Domain\\Entities\\Responce\\ULoginResp.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -950,11 +850,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 49,
               "Title": "SessionContext.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\SessionContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\SessionContext.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\DBModel\\Seed\\SessionContext.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\SessionContext.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\SessionContext.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\DBModel\\Seed\\SessionContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -962,11 +862,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 50,
               "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\UserContext.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\DBModel\\Seed\\UserContext.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\UserContext.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\DBModel\\Seed\\UserContext.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\DBModel\\Seed\\UserContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -974,11 +874,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 51,
               "Title": "BusinessLogic.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\BusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\BusinessLogic.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\BusinessLogic.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\BusinessLogic.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\BusinessLogic.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\BusinessLogic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -986,11 +886,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 45,
               "Title": "UserMinimal.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UserMinimal.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UserMinimal.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Entities\\User\\UserMinimal.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UserMinimal.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UserMinimal.cs",
               "RelativeToolTip": "Solution.Domain\\Entities\\User\\UserMinimal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -998,11 +898,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 46,
               "Title": "URegisterData.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\URegisterData.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\URegisterData.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Entities\\User\\URegisterData.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\URegisterData.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\URegisterData.cs",
               "RelativeToolTip": "Solution.Domain\\Entities\\User\\URegisterData.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1010,11 +910,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 52,
               "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Session\\Session.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Session\\Session.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Entities\\Session\\Session.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Session\\Session.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\Session\\Session.cs",
               "RelativeToolTip": "Solution.Domain\\Entities\\Session\\Session.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1022,11 +922,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 54,
               "Title": "ULoginData.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\ULoginData.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\ULoginData.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Entities\\User\\ULoginData.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\ULoginData.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\ULoginData.cs",
               "RelativeToolTip": "Solution.Domain\\Entities\\User\\ULoginData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1034,11 +934,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 53,
               "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Enums\\UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Enums\\UserRole.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Enums\\UserRole.cs",
               "RelativeToolTip": "Solution.Domain\\Enums\\UserRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1046,11 +946,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 55,
               "Title": "UDBTable.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UDBTable.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UDBTable.cs",
               "RelativeDocumentMoniker": "Solution.Domain\\Entities\\User\\UDBTable.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UDBTable.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.Domain\\Entities\\User\\UDBTable.cs",
               "RelativeToolTip": "Solution.Domain\\Entities\\User\\UDBTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1058,11 +958,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 56,
               "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "proiect\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\BaseController.cs",
               "RelativeToolTip": "proiect\\Controllers\\BaseController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAewB4AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1071,34 +971,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 60,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Global.asax.cs",
-              "RelativeDocumentMoniker": "proiect\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Global.asax.cs",
-              "RelativeToolTip": "proiect\\Global.asax.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T10:47:19.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "proiect\\Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "proiect\\Controllers\\RegisterController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T12:12:37.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
               "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\UserData.cs",
               "RelativeDocumentMoniker": "proiect\\models\\UserData.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\UserData.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\UserData.cs",
               "RelativeToolTip": "proiect\\models\\UserData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1106,11 +982,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 57,
               "Title": "SessionBL.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\MainBL\\SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\MainBL\\SessionBL.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\MainBL\\SessionBL.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\MainBL\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\MainBL\\SessionBL.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\MainBL\\SessionBL.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAxwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1118,11 +994,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 58,
               "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserLogin.cs",
               "RelativeDocumentMoniker": "proiect\\models\\User\\UserLogin.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserLogin.cs",
               "RelativeToolTip": "proiect\\models\\User\\UserLogin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1130,11 +1006,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 59,
               "Title": "UserRegister.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserRegister.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserRegister.cs",
               "RelativeDocumentMoniker": "proiect\\models\\User\\UserRegister.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserRegister.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\models\\User\\UserRegister.cs",
               "RelativeToolTip": "proiect\\models\\User\\UserRegister.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1142,23 +1018,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "proiect\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "proiect\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T17:47:56.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 61,
               "Title": "HttpContextExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Extensions\\HttpContextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Extensions\\HttpContextExtensions.cs",
               "RelativeDocumentMoniker": "proiect\\Extensions\\HttpContextExtensions.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Extensions\\HttpContextExtensions.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Extensions\\HttpContextExtensions.cs",
               "RelativeToolTip": "proiect\\Extensions\\HttpContextExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1166,11 +1030,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 62,
               "Title": "ISession.cs",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Interfaces\\ISession.cs",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Interfaces\\ISession.cs",
               "RelativeDocumentMoniker": "Solution.BusinessLogic\\Interfaces\\ISession.cs",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Interfaces\\ISession.cs",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\Solution.BusinessLogic\\Interfaces\\ISession.cs",
               "RelativeToolTip": "Solution.BusinessLogic\\Interfaces\\ISession.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1178,11 +1042,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 63,
               "Title": "_LayoutDonatieLunar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutDonatieLunar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1190,11 +1054,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 64,
               "Title": "_LayoutLogIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutLogIn.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1202,11 +1066,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 65,
               "Title": "_LayoutDesprenoi.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
               "RelativeDocumentMoniker": "proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
               "RelativeToolTip": "proiect\\Views\\Shared\\_LayoutDesprenoi.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1214,11 +1078,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 66,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Web.config",
+              "DocumentMoniker": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Web.config",
               "RelativeDocumentMoniker": "proiect\\Web.config",
-              "ToolTip": "C:\\Users\\Tanea\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Web.config",
+              "ToolTip": "C:\\Users\\Ilincut\\Desktop\\ProiectWeb2024\\Solution\\proiect\\Web.config",
               "RelativeToolTip": "proiect\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
