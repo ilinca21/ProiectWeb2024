@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "_ProfilulMeu";
+}
+
+@using System.Web.Optimization;
+<!DOCTYPE html>
+<html>
+<head>
+
+    @Styles.Render("~/bundles/bootstrap/css")
+</head>
+<body>
+    <main id="main" class="main">
+        @RenderBody()
+        @Html.Partial("_Footer")
+    </main>
+
+    @Scripts.Render("~/bundles/navbar/js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

@@ -2726,6 +2726,8 @@
     <Compile Include="Models\User\UserLogin.cs" />
     <Compile Include="Models\User\UserRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerifyRole\IsAdmin.cs" />
+    <Compile Include="VerifyRole\IsLoginUser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -3053,7 +3055,6 @@
     <Content Include="Views\Shared\_LayoutCreateAccount.cshtml" />
     <Content Include="Views\Shared\_LayoutPageFAQ.cshtml" />
     <Content Include="Views\Home\PageFAQ.cshtml" />
-    <Content Include="Views\ViewDonatorType\TypePage.cshtml" />
     <Content Include="Views\Login\LoginPage.cshtml" />
     <Content Include="Views\Register\CreateAccount.cshtml" />
     <Content Include="Views\Shared\_LayoutAdaugareCaz.cshtml" />
@@ -3070,10 +3071,30 @@
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Login\LogOut.cshtml" />
     <Content Include="Views\UserLogin\IndexUserLogin.cshtml" />
-    <Content Include="Views\Shared\_ProfilulMeu.cshtml" />
+    <Content Include="Views\Shared\_LayoutProfilulMeu.cshtml" />
     <Content Include="Views\Home\PageProfilulMeu.cshtml" />
     <Content Include="Views\Shared\_LayoutToateCazurile.cshtml" />
     <Content Include="Views\Home\PageToateCazurile.cshtml" />
+    <Content Include="Views\Admin\AdaugareCazAdmin.cshtml" />
+    <Content Include="Views\Admin\AdminProfil.cshtml" />
+    <Content Include="Views\Admin\GestionareCazuri.cshtml" />
+    <Content Include="Views\Admin\AdaugareTestimoniale.cshtml" />
+    <Content Include="Views\Admin\AdaugareStire.cshtml" />
+    <Content Include="Views\UserLogin\AdaugareCaz.cshtml" />
+    <Content Include="Views\UserLogin\Contact.cshtml" />
+    <Content Include="Views\UserLogin\Desprenoi.cshtml" />
+    <Content Include="Views\UserLogin\Donatielunar.cshtml" />
+    <Content Include="Views\UserLogin\FAQ.cshtml" />
+    <Content Include="Views\UserLogin\ProfilulMeu.cshtml" />
+    <Content Include="Views\UserLogin\Testimoniale.cshtml" />
+    <Content Include="Views\UserLogin\ToateCazurile.cshtml" />
+    <Content Include="Views\Admin\CazuriUrgenteAdmin.cshtml" />
+    <Content Include="Views\Admin\CazuriFinisateAdmin.cshtml" />
+    <Content Include="Views\UserLogin\CazuriUrgenteUser.cshtml" />
+    <Content Include="Views\UserLogin\CazuriFinisateUser.cshtml" />
+    <Content Include="Views\Admin\_NavbarAdmin.cshtml" />
+    <Content Include="Views\UserLogin\_NavbarUser.cshtml" />
+    <Content Include="Views\Shared\_LayoutUser.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3085,7 +3106,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="assets3\images\" />
     <Folder Include="assets\plugins\datatables-\extensions\FixedColumns\examples\integration\" />
-    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="assets\vendor\chart.js\controllers\controller.bar.d.ts" />

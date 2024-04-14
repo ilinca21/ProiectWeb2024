@@ -13,5 +13,21 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult AdaugareCazAdmin()
+        {
+            return View();
+        }
+        public ActionResult AdminProfil()
+        {
+            return View();
+        }
+        public ActionResult GestionareCazuri()
+        {
+            return View();
+        }
+        public ActionResult AdaugareTestimoniale()
+        {
+            return View();
+        }
     }
 }

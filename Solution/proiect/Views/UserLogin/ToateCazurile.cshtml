@@ -1,0 +1,166 @@
+﻿
+@{
+    ViewBag.Title = "ToateCazurile";
+    Layout = "~/Views/Shared/_LayoutToateCazurile.cshtml";
+}
+@model proiect.Models.User.UserLogin
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cazuri pentru Donare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #000; /* schimbarea culorii textului în negru */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .heading-title {
+            text-align: center;
+            color: #333;
+        }
+
+        .listing-events {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .necessity-item {
+            background-color: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-link {
+            display: block;
+            text-decoration: none;
+            color: #000; /* schimbarea culorii textului în negru */
+        }
+
+        .item-pattern img {
+            width: 100%;
+            height: auto;
+        }
+
+        .item-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #000; /* schimbarea culorii textului în negru */
+        }
+
+        .amount-received {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #000; /* schimbarea culorii textului în negru */
+        }
+
+        .progress {
+            background-color: #ddd;
+            border-radius: 5px;
+            height: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background-color: #ff3c3c;
+            height: 100%;
+        }
+
+        .data-percent {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .btn-donate {
+            background-color: #ff3c3c;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .btn-donate:hover {
+                background-color: #e60000;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="heading-title">Toate cazurile</h1>
+
+        <div class="listing-events">
+            <div class="necessity-item">
+                <div class="item-link">
+                    <div class="item-pattern">
+                        <a href="https://www.caritate.md/donations/din-inima-prntru-serghei-bocan">
+                            <img src="https://www.caritate.md/uploads/282x210/54615-img-3297.jpeg" alt="Din inimă prntru Serghei Bocan">
+                        </a>
+                    </div>
+                    <a class="item-content">
+                        <span class="name" title="Din inimă pentru Serghei Bocan">Din inimă pentru Serghei Bocan</span>
+                        <div class="amount-received">
+                            <span>Suma primită: </span>
+                            <strong>3,103 EUR</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 21%"></div>
+                        </div>
+                        <span class="data-percent">21%</span>
+                    </a>
+                    <button class="btn-donate">Donează</button>
+                </div>
+            </div>
+            <!-- Repetă pentru al doilea caz de donare -->
+            <div class="necessity-item">
+                <div class="item-link">
+                    <div class="item-pattern">
+                        <a href="https://www.caritate.md/donations/din-inima-pentru-tatiana-simac">
+                            <img src="https://www.caritate.md/uploads/282x210/54541-img-3043.jpeg" alt="Din inimă pentru Tatiana Simac">
+                        </a>
+                    </div>
+                    <a class="item-content">
+                        <span class="name" title="Din inimă pentru Tatiana Simac">Din inimă pentru Tatiana Simac</span>
+                        <div class="amount-received">
+                            <span>Suma primită: </span>
+                            <strong>3,039 MDL</strong>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 4%"></div>
+                        </div>
+                        <span class="data-percent">4%</span>
+                    </a>
+                    <button class="btn-donate">Donează</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

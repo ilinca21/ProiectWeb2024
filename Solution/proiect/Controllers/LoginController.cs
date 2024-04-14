@@ -42,13 +42,14 @@ namespace proiect.Controllers
                 };
                 Response.Cookies.Add(cookie);
             }
-            return RedirectToAction("LoginPage", "Login");
+            return RedirectToAction("Index", "Home");
         }
         //Get : Login
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult LoginPage(UserLogin data)
         {
+            HttpContext.Session["UserProfile"] = data;
             if (ModelState.IsValid)
             {
                 var dataUser = Mapper.Map<ULoginData>(data);
@@ -59,6 +60,7 @@ namespace proiect.Controllers
                 ULoginResp resp = _session.UserLoginAction(dataUser);
                 if (resp.Status)
                 {
+                    FormsAuthentication.SetAuthCookie(data.Credential, false);
                     HttpCookie cookie = _session.GenCookie(data.Credential);
                     ControllerContext.HttpContext.Response.Cookies.Add(cookie);
                     Session["UserName"] = data.Credential;
