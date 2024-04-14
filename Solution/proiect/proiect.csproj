@@ -3072,6 +3072,8 @@
     <Content Include="Views\UserLogin\IndexUserLogin.cshtml" />
     <Content Include="Views\Shared\_ProfilulMeu.cshtml" />
     <Content Include="Views\Home\PageProfilulMeu.cshtml" />
+    <Content Include="Views\Shared\_LayoutToateCazurile.cshtml" />
+    <Content Include="Views\Home\PageToateCazurile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

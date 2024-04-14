@@ -81,6 +81,9 @@ namespace proiect.Controllers
         {
             return View();
         }
-
+        public ActionResult PageToateCazurile()
+        {
+            return View();
+        }
     }
 }
