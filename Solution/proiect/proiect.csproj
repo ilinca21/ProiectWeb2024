@@ -3101,6 +3101,8 @@
     <Content Include="Views\Home\PageParteneriateCompanii.cshtml" />
     <Content Include="Views\Shared\_LayoutCazuriUrgente.cshtml" />
     <Content Include="Views\Home\PageCazuriUrgente.cshtml" />
+    <Content Include="Views\Shared\_LayoutCazuriFinisate.cshtml" />
+    <Content Include="Views\Home\PageCazuriFinisate.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

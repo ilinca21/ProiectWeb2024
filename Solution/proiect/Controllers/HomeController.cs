@@ -102,5 +102,10 @@ namespace proiect.Controllers
             return View();
         }
 
+        public ActionResult PageCazuriFinisate()
+        {
+            return View();
+        }
+
     }
 }
