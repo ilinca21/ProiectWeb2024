@@ -3097,6 +3097,10 @@
     <Content Include="Views\Admin\_NavbarAdmin.cshtml" />
     <Content Include="Views\UserLogin\_NavbarUser.cshtml" />
     <Content Include="Views\Shared\_LayoutUser.cshtml" />
+    <Content Include="Views\Shared\_LayoutParteneriateCompanii.cshtml" />
+    <Content Include="Views\Home\PageParteneriateCompanii.cshtml" />
+    <Content Include="Views\Shared\_LayoutCazuriUrgente.cshtml" />
+    <Content Include="Views\Home\PageCazuriUrgente.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

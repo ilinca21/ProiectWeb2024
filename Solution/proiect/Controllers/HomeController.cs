@@ -91,5 +91,16 @@ namespace proiect.Controllers
         {
             return View();
         }
+
+        public ActionResult PageParteneriateCompanii()
+        {
+            return View();
+        }
+
+        public ActionResult PageCazuriUrgente()
+        {
+            return View();
+        }
+
     }
 }
