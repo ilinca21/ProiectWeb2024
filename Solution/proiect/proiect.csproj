@@ -3093,8 +3093,6 @@
     <Content Include="Views\Admin\CazuriFinisateAdmin.cshtml" />
     <Content Include="Views\UserLogin\CazuriUrgenteUser.cshtml" />
     <Content Include="Views\UserLogin\CazuriFinisateUser.cshtml" />
-    <Content Include="Views\Admin\_NavbarAdmin.cshtml" />
-    <Content Include="Views\UserLogin\_NavbarUser.cshtml" />
     <Content Include="Views\Shared\_LayoutUser.cshtml" />
     <Content Include="Views\Shared\_LayoutParteneriateCompanii.cshtml" />
     <Content Include="Views\Home\PageParteneriateCompanii.cshtml" />
@@ -3105,6 +3103,8 @@
     <Content Include="Views\UserLogin\CardCredit.cshtml" />
     <Content Include="Views\Shared\_LayoutCardCredit.cshtml" />
     <Content Include="Views\Shared\_AUHeader.cshtml" />
+    <Content Include="Views\Shared\_NavbarAdmin.cshtml" />
+    <Content Include="Views\Shared\_NavbarUser.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

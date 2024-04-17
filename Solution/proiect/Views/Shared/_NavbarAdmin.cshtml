@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "NavbarAdmin";
+
+}
+
+﻿<ul class="sidebar-nav" id="sidebar-nav">
+
+
+    <li class="nav-heading">Pagini</li>
+    <li class="nav-item">
+        <a href="@Url.Action("AdminProfil","Admin")" class="nav-link collapsed">
+            <span>Profilul meu</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+
+    <li class="nav-item">
+        <a href="@Url.Action("AdaugareCazAdmin","Admin")" class="nav-link collapsed">
+            <span>Adaugă cazul</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+    <li class="nav-item">
+        <a href="@Url.Action("GestionareCazuri","Admin")" class="nav-link collapsed">
+            <span>Toate cazurile</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+
+    <li class="nav-item">
+        <a href="@Url.Action("CazuriUrgenteAdmin","Admin")" class="nav-link collapsed">
+            <span>Cazuri urgente</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+    <li class="nav-item">
+        <a href="@Url.Action("CazuriFinisateAdmin","Admin")" class="nav-link collapsed">
+            <span>Cazuri finisate</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+    <li class="nav-item">
+        <a href="@Url.Action("AdaugareTestimoniale","Admin")" class="nav-link collapsed">
+            <span>Testimoniale</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+    <li class="nav-item">
+        <a href="@Url.Action("LoginPage","Login")" class="nav-link collapsed">
+            <span>Autentificare</span>
+        </a>
+    </li><!-- End Login Page Nav -->
+
+    <li class="nav-item">
+        <a class="nav-link collapsed">
+            <span>Parteneriate cu companii</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
+
+</ul>
+

@@ -22,16 +22,11 @@ namespace proiect.Controllers
             else
             {
                 if (role == "Admin")
-                {
-                    IsAdmin.IsUserAdmin();
-                    return RedirectToAction("Index", "Home");
-                }
+                    return RedirectToAction("IndexAdmin", "Admin");
                 else
-                {
-                    return RedirectToAction("Index", "Home");
-                }
-
+                    return RedirectToAction("IndexUserLogin", "UserLogin");
             }
+            return View();
         }
         public ActionResult IndexAdmin()
         {
