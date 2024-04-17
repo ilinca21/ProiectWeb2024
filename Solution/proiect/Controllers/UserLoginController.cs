@@ -45,5 +45,17 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult CazuriUrgenteUser()
+        {
+            return View();
+        }
+        public ActionResult CazuriFinisateUser()
+        {
+            return View();
+        }
+        public ActionResult CardCredit()
+        {
+            return View();
+        }
     }
 }

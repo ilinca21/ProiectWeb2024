@@ -29,5 +29,13 @@ namespace proiect.Controllers
         {
             return View();
         }
+        public ActionResult CazuriUrgenteAdmin()
+        {
+            return View();
+        }
+        public ActionResult CazuriFinisateAdmin()
+        {
+            return View();
+        }
     }
 }

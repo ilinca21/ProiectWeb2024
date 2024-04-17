@@ -3081,7 +3081,6 @@
     <Content Include="Views\Admin\AdminProfil.cshtml" />
     <Content Include="Views\Admin\GestionareCazuri.cshtml" />
     <Content Include="Views\Admin\AdaugareTestimoniale.cshtml" />
-    <Content Include="Views\Admin\AdaugareStire.cshtml" />
     <Content Include="Views\UserLogin\AdaugareCaz.cshtml" />
     <Content Include="Views\UserLogin\Contact.cshtml" />
     <Content Include="Views\UserLogin\Desprenoi.cshtml" />
@@ -3103,6 +3102,8 @@
     <Content Include="Views\Home\PageCazuriUrgente.cshtml" />
     <Content Include="Views\Shared\_LayoutCazuriFinisate.cshtml" />
     <Content Include="Views\Home\PageCazuriFinisate.cshtml" />
+    <Content Include="Views\UserLogin\CardCredit.cshtml" />
+    <Content Include="Views\Shared\_LayoutCardCredit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
