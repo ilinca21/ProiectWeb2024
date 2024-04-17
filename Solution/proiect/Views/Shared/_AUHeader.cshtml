@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "_AUHeader";
+}
+<div class="d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/insigna.png" alt="" />
+        <span>Salvează o viață</span>
+    </a>
+
+    <nav class="header-nav">
+        <ul class="d-flex align-items-center">
+            <li class="nav-item d-block d-lg-none">
+                <a class="nav-link nav-icon search-bar-toggle " href="#">
+                    <i class="bi bi-search"></i>
+                </a>
+            </li><!-- End Search Icon-->
+        </ul>
+    </nav><!-- End Icons Navigation -->
+
+    <div style="position: fixed; top: 0; right: 0;">
+        <button class="btn btn-sm btn-donate" style="background-color: #f81717; color: #ffffff; border: none;">Ieșire</button>
+    </div>
+</div><!-- End Logo -->
+<i class="bi bi-list toggle-sidebar-btn"></i>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleButton = document.querySelector('.toggle-sidebar-btn');
+        const sidebar = document.querySelector('.sidebar');
+
+        if (toggleButton && sidebar) {
+            toggleButton.addEventListener('click', function () {
+                // Verificați starea curentă a barei laterale
+                const isSidebarVisible = sidebar.classList.contains('active');
+
+                if (isSidebarVisible) {
+                    // Ascunde bara laterală
+                    sidebar.classList.remove('active');
+                } else {
+                    // Afișează bara laterală
+                    sidebar.classList.add('active');
+                }
+            });
+        }
+    });</script>
+<style>
+    .sidebar {
+        width: 300px;
+        height: 100vh;
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        left: -300px; /* Inițial ascunsă */
+        transition: left 0.3s ease;
+        overflow-y: auto; /* Permite scroll vertical */
+    }
+
+        .sidebar.active {
+            left: 0; /* Afișată atunci când clasa "active" este aplicată */
+        }
+        /* Stiluri pentru elementele din bara laterală */
+        .sidebar ul {
+            list-style: none;
+            padding: 15px 0; /* Adăugăm spațiu deasupra și dedesubtul elementelor din listă */
+            margin: 0;
+        }
+
+            .sidebar ul li {
+                padding: 10px 15px; /* Adăugăm spațiu în jurul textului din fiecare element */
+                font-size: 16px;
+            }
+</style>
+
+<div class="search-bar">
+    <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Căutare" title="Introdu un caz">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+    </form>
+</div><!-- End Search Bar -->
+<style>
+    .btn-donate {
+        background-color: #ff0000;
+        color: #ffffff;
+        border: none;
+    }
+
+    .btn-sm {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+</style>
+<nav class="header-nav ms-auto">
+    <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+            <a class="nav-link nav-icon search-bar-toggle " href="#">
+                <i class="bi bi-search"></i>
+            </a>
+        </li><!-- End Search Icon-->
+
+    </ul>
+
+</nav><!-- End Icons Navigation -->
+<span class="col-8 text-center">@HttpContext.Current.Session["UserName"]</span>
