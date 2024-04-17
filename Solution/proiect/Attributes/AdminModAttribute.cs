@@ -39,7 +39,7 @@ namespace proiect.Attributes
             {
                 filterContext.Result = new RedirectToRouteResult(
                     new RouteValueDictionary(
-                        new { controller = "Access", action = "Denied" }));
+                        new { controller = "Home", action = "ErrorAccessDenied" }));
             }
             else
             {

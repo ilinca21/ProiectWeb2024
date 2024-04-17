@@ -1,4 +1,5 @@
-﻿using System;
+﻿using proiect.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,7 +9,7 @@ namespace proiect.Controllers
 {
     public class AdminController : Controller
     {
-        // GET: Admin
+        [AdminMod]
         public ActionResult IndexAdmin()
         {
             return View();
