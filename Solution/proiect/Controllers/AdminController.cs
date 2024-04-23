@@ -7,36 +7,43 @@ using System.Web.Mvc;
 
 namespace proiect.Controllers
 {
-    public class AdminController : Controller
+    public class AdminController : BaseController
     {
-        [AdminMod]
-        public ActionResult IndexAdmin()
-        {
-            return View();
-        }
-        public ActionResult AdaugareCazAdmin()
-        {
-            return View();
-        }
-        public ActionResult AdminProfil()
-        {
-            return View();
-        }
-        public ActionResult GestionareCazuri()
-        {
-            return View();
-        }
-        public ActionResult AdaugareTestimoniale()
-        {
-            return View();
-        }
-        public ActionResult CazuriUrgenteAdmin()
-        {
-            return View();
-        }
-        public ActionResult CazuriFinisateAdmin()
-        {
-            return View();
-        }
-    }
+            [AdminMod]
+            public ActionResult IndexAdmin()
+            {
+                SessionStatus();
+                return View();
+            }
+            public ActionResult AdaugareCazAdmin()
+            {
+                SessionStatus();
+                return View();
+            }
+            public ActionResult AdminProfil()
+            {
+                SessionStatus();
+                return View();
+            }
+            public ActionResult GestionareCazuri()
+            {
+                SessionStatus();
+                return View();
+            }
+            public ActionResult AdaugareTestimoniale()
+            {
+                SessionStatus();
+                return View();
+            }
+            public ActionResult CazuriUrgenteAdmin()
+            {
+                SessionStatus();
+                return View();
+            }
+            public ActionResult CazuriFinisateAdmin()
+            {
+                SessionStatus();
+                return View();
+            }
+      }
 }

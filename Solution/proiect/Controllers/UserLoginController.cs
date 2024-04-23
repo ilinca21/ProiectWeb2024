@@ -6,55 +6,67 @@ using System.Web.Mvc;
 
 namespace proiect.Controllers
 {
-    public class UserLoginController : Controller
+    public class UserLoginController : BaseController
     {
         // GET: UserLogin
         public ActionResult IndexUserLogin()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult AdaugareCaz()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult Contact()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult Desprenoi()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult DonatieLunar()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult FAQ()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult ProfilulMeu()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult Testimoniale()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult ToateCazurile()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult CazuriUrgenteUser()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult CazuriFinisateUser()
         {
+            SessionStatus();
             return View();
         }
         public ActionResult CardCredit()
         {
+            SessionStatus();
             return View();
         }
     }

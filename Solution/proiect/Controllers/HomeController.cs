@@ -19,6 +19,7 @@ namespace proiect.Controllers
             {
                 return View();
             }
+
             else
             {
                 if (role == "Admin")
@@ -26,7 +27,6 @@ namespace proiect.Controllers
                 else
                     return RedirectToAction("IndexUserLogin", "UserLogin");
             }
-            return View();
         }
         public ActionResult IndexAdmin()
         {
