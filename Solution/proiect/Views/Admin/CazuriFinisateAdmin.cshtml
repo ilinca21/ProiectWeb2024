@@ -3,7 +3,6 @@
     ViewBag.Title = "CazuriFinisateAdmin";
     Layout = "~/Views/Shared/_LayoutCazuriFinisate.cshtml";
 }
-}
 
 @model proiect.Models.User.UserLogin
 <!DOCTYPE html>
@@ -17,9 +16,74 @@
         .heading-title {
             text-align: center;
         }
+
+        /* Stilizare buton încărcare imagine */
+        #uploadImageButton {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Stilizare buton de salvare */
+        #saveButton {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px; /* Spațiu între butoane */
+            cursor: pointer;
+        }
+
+        /* Stilizare casetă de text */
+        #textInput {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <!-- Buton pentru încărcare imagine -->
+        <input type="file" id="uploadImage" accept="image/*" style="display: none;">
+        <button id="uploadImageButton">Încarcă Imaginea</button>
+
+        <!-- Caseta de text -->
+        <textarea id="textInput" rows="4" placeholder="Introdu textul aici..."></textarea>
+
+        <!-- Buton pentru salvare -->
+        <button id="saveButton">Salvează Imaginea și Textul</button>
+
+        <div class="row news-list">
+            <!-- Aici poți adăuga codul existent pentru articolele de știri -->
+        </div>
+    </div>
+
+    <script>
+        // Funcția pentru deschiderea ferestrei de încărcare a imaginii când se apasă butonul
+        document.getElementById('uploadImageButton').addEventListener('click', function () {
+            document.getElementById('uploadImage').click();
+        });
+
+        // Funcția pentru salvarea imaginii și textului
+        document.getElementById('saveButton').addEventListener('click', function () {
+            var uploadedImage = document.getElementById('uploadImage').files[0];
+            var textInput = document.getElementById('textInput').value;
+
+            // Aici poți adăuga codul pentru a salva imaginea și textul
+            console.log("Imagine încărcată:", uploadedImage);
+            console.log("Text introdus:", textInput);
+        });
+    </script>
     <div class="list-of-news-block bg-gray">
         <div class="container">
             <h2 class="heading-title">Cazuri Finisate</h2>

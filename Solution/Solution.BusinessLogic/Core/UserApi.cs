@@ -101,7 +101,6 @@ namespace Solution.BusinessLogic.Core
                 db.SaveChanges();
                 return new ULoginResp { Status = true, Message = "User registered successfully" };
             }
-            //return new ULoginResp { Status = false, Message = "Error" };
         }
 
         public DonatorTypeDetail GetDonatorTypeUser(int id)

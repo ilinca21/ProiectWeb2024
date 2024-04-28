@@ -402,3 +402,9 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\AutoMapper.xml
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\System.ValueTuple.xml
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Helpers.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.Auth.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.Auth.xml

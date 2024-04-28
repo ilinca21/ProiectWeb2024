@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="col-12">
                                         <label for="email" class="form-label">Email</label>
-                                        @Html.TextBoxFor(UserRegister => UserRegister.Email, new { @class = "form-control", placeholder = "Email", maxlength = "20" })
+                                        @Html.TextBoxFor(UserRegister => UserRegister.Email, new { @class = "form-control", placeholder = "Email", maxlength = "40" })
                                         @Html.ValidationMessageFor(UserRegister => UserRegister.Email, "", new { @class = "text-danger" })
                                     </div>
 

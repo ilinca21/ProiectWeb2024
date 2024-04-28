@@ -1,8 +1,12 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.Exchange.WebServices.Data;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
 
 namespace proiect.Controllers
 {
@@ -69,5 +73,6 @@ namespace proiect.Controllers
             SessionStatus();
             return View();
         }
+
     }
 }
