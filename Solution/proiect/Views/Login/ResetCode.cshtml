@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "ResetCode";
+    Layout = "~/Views/Shared/_LayoutLogIn.cshtml";
+}
+
+@model proiect.Models.Password.ModelResetPassword
+<!DOCTYPE html>
+<body>
+    <style>
+        body {
+            background-image: url('/assets/img/ll.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            color: red; /* Changing label text color to red */
+        }
+
+        h3 {
+            color: red; /* Changing h3 text color to red */
+        }
+
+        .button {
+            background-color: yellow; /* Changing button background color to yellow */
+            color: black; /* Changing button text color to black */
+        }
+    </style>
+
+    <form method="post">
+        @Html.AntiForgeryToken()
+        <h3>Introdu codul de verificare</h3>
+
+        <label for="CodeWrite">Introdu codul de verificare:</label>
+        @Html.TextBoxFor(model => model.CodeWrite, new { @class = "form-control", placeholder = "Introdu codul primit", maxlength = "8" })
+        @Html.ValidationMessageFor(model => model.CodeWrite, "", new { @class = "text-danger" })
+
+        <button type="submit" class="button">Verifica codul</button>
+    </form>
+</body>
+
+

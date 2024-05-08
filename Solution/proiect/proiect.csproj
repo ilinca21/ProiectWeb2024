@@ -2731,6 +2731,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DonatorTypeModels\DonatorTypeDetail.cs" />
+    <Compile Include="Models\Password\ModelResetPassword.cs" />
     <Compile Include="Models\UserData.cs" />
     <Compile Include="Models\User\UserLogin.cs" />
     <Compile Include="Models\User\UserRegister.cs" />
@@ -3112,6 +3113,10 @@
     <Content Include="Views\Shared\_AUHeader.cshtml" />
     <Content Include="Views\Shared\_NavbarAdmin.cshtml" />
     <Content Include="Views\Shared\_NavbarUser.cshtml" />
+    <Content Include="Views\Login\ChangePassword.cshtml" />
+    <Content Include="Views\Login\ResetCode.cshtml" />
+    <Content Include="Views\Login\ResetPassword.cshtml" />
+    <Content Include="Views\UserLogin\ParteneriateCompanii.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3228,6 +3233,10 @@
     <ProjectReference Include="..\Solution.Domain\Solution.Domain.csproj">
       <Project>{1f310fd0-3178-4990-af62-8bbc28ca6b85}</Project>
       <Name>Solution.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Solution.Helpers\Solution.Helpers.csproj">
+      <Project>{77c040a3-806c-4a3f-a0f2-a041284f880c}</Project>
+      <Name>Solution.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

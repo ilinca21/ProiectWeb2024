@@ -74,5 +74,11 @@ namespace proiect.Controllers
             return View();
         }
 
+        public ActionResult ParteneriateCompanii()
+        {
+            SessionStatus();
+            return View();
+        }
+
     }
 }

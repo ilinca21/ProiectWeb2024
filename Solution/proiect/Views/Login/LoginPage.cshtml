@@ -33,16 +33,17 @@
                                 {
                                     @Html.AntiForgeryToken()
                                     <label for="Credential">Nume de utilizator</label>
-                                    @Html.TextBoxFor(UserLogin => UserLogin.Credential, new { @class = "form-control", placeholder = "Nume", maxlength = "10" })
+                                    @Html.TextBoxFor(UserLogin => UserLogin.Credential, new { @class = "form-control", placeholder = "Nume", maxlength = "15" })
                                     @Html.ValidationMessageFor(UserLogin => UserLogin.Credential, "", new { @class = "text-danger" })
 
                                     <label for="Password">Parola</label>
                                     @Html.PasswordFor(UserLogin => UserLogin.Password, new { @class = "form-control", placeholder = "Parola" })
                                     @Html.ValidationMessageFor(UserLogin => UserLogin.Password, "", new { @class = "text-danger" })
 
-                                    <div class="sign-in">
-                                        <small><a href="@Url.Action("CreateAccount", "Register")">Nu ai un cont? Înregistrează-te</a></small>
-                                    </div>
+                            <div class="sign-in">
+                                <small><a href="@Url.Action("CreateAccount", "Register")">Nu ai un cont? Înregistrează-te</a></small>
+                                <small><a href="@Url.Action("ResetPassword", "Login")">Ai uitat parola?</a></small>
+                            </div>
                                 <div class="col-12">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
