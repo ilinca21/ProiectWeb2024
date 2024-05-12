@@ -408,3 +408,4 @@ C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.xml
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.Auth.pdb
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\proiect\bin\Solution.Domain.dll.config

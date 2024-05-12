@@ -54,6 +54,7 @@
     <Compile Include="Entities\DonatorType\DonatorTypeDetail.cs" />
     <Compile Include="Entities\Responce\ULoginResp.cs" />
     <Compile Include="Entities\Session\Session.cs" />
+    <Compile Include="Entities\User\ANewUser.cs" />
     <Compile Include="Entities\User\UDBTable.cs" />
     <Compile Include="Entities\User\ULoginData.cs" />
     <Compile Include="Entities\User\URegisterData.cs" />

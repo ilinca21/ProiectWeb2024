@@ -33,7 +33,7 @@
                                     @Html.AntiForgeryToken()
                                     <div class="col-12">
                                         <label for="yourName" class="form-label">Nume de utilizator</label>
-                                        @Html.TextBoxFor(UserRegister => UserRegister.Credential, new { @class = "form-control", placeholder = "Email", maxlength = "20" })
+                                        @Html.TextBoxFor(UserRegister => UserRegister.Credential, new { @class = "form-control", placeholder = "Nume", maxlength = "20" })
                                         @Html.ValidationMessageFor(UserRegister => UserRegister.Credential, "", new { @class = "text-danger" })
                                     </div>
                                     <div class="col-12">

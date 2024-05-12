@@ -40,3 +40,4 @@ C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\AutoMapper.pdb
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\AutoMapper.xml
 C:\Users\Tanea\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\System.ValueTuple.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.BusinessLogic\bin\Debug\Solution.Domain.dll.config

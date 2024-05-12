@@ -14,6 +14,10 @@ namespace Solution.BusinessLogic.MainBL
         {
             return new SessionBL();
         }
+        public IUserMonitoring GetMonitoringBL()
+        {
+            return new MonitoringBL();
+        }
     }
 }
 

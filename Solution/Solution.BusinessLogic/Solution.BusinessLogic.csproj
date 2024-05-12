@@ -65,6 +65,8 @@
     <Compile Include="DBModel\Seed\SessionContext.cs" />
     <Compile Include="DBModel\Seed\UserContext.cs" />
     <Compile Include="Interfaces\ISession.cs" />
+    <Compile Include="Interfaces\IUserMonitoring.cs" />
+    <Compile Include="MainBL\MonitoringBL.cs" />
     <Compile Include="MainBL\SessionBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

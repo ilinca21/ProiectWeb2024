@@ -1,4 +1,9 @@
 ﻿using proiect.Attributes;
+using proiect.Models.User;
+using Solution.BusinessLogic.Interfaces;
+using Solution.BusinessLogic.MainBL;
+using Solution.Domain.Entities.Responce;
+using Solution.Domain.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +14,50 @@ namespace proiect.Controllers
 {
     public class AdminController : BaseController
     {
-            [AdminMod]
+        private readonly IUserMonitoring _monitoring;
+        // GET: Admin
+        public AdminController()
+        {
+            var bl = new BusinessLogic();
+            _monitoring = bl.GetMonitoringBL();
+        }
+        [AdminMod]
+        public ActionResult AdaugareUser()
+        {
+            SessionStatus();
+
+            return View();
+        }
+        [AdminMod]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AdaugareUser(ModelNewUser data)
+        {
+            if (ModelState.IsValid)
+            {
+                ANewUser uData = new ANewUser
+                {
+                    Credential = data.Credential,
+                    Email = data.Email,
+                    Password = data.Password,
+                    ConfirmPassword = data.ConfirmPassword,
+                    Level = data.Level
+                };
+                ULoginResp resp = _monitoring.AddNewUser(uData);
+                if (resp.Status)
+                {
+                    return RedirectToAction("Users", "Admin");
+                }
+                else
+                {
+                    ModelState.AddModelError("", resp.Message);  // Ensure this property name is correct
+                    return RedirectToAction("UserPage", "LoginUser");
+                }
+            }
+            return View(data);
+        }
+
+        [AdminMod]
             public ActionResult IndexAdmin()
             {
                 SessionStatus();

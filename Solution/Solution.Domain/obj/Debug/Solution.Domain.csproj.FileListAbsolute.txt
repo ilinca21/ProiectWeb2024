@@ -16,3 +16,8 @@ C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solut
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.FE67E7E1.Up2Date
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.dll
 C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\obj\Debug\Solution.Domain.pdb
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\Solution.Domain.dll.config
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Ilincut\Desktop\ProiectWeb2024\Solution\Solution.Domain\bin\Debug\EntityFramework.SqlServer.xml
