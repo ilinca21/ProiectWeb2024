@@ -1,0 +1,184 @@
+﻿
+@{
+    ViewBag.Title = "AdaugareCaz";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
+}
+@model proiect.Models.Case.CaseData
+
+<style>
+  
+    table {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse; 
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid black; 
+        text-align: left; 
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea {
+        width: 100%; 
+        padding: 8px; 
+        margin: 5px 0; 
+        box-sizing: border-box;
+        border-radius: 5px; 
+        border: 1px solid #ccc; 
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    input[type="button"] {
+        width: 150px; 
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px; 
+        background-color: red; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif; 
+        cursor: pointer;
+    }
+
+        input[type="button"]:hover {
+            background-color: #45a049; 
+        }
+</style>
+
+@using (Html.BeginForm("AddCase", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <!-- Formularul -->
+    <h2 style="text-align: center; font-weight: bold;">Adaugă caz nou</h2>
+
+    <form>
+        <!-- Tabelul pentru Nume și Prenume, Vârstă -->
+        <table>
+            <tr>
+                <td>Nume, Prenume</td>
+                <td>Vârsta</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="txtNumePrenume" name="FullName" />
+                </td>
+                <td>
+                    <input type="text" id="txtVarsta" name="Age" />
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Localitatea și Adresa -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Localitatea</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Adresa</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    <input type="text" id="txtLocalitatea" name="City" />
+                </td>
+                <td style="text-align: left;">
+                    <input type="text" id="txtAdresa" name="Address" />
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Email și Număr de telefon -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Email</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Număr de telefon</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    <input type="text" id="txtEmail" name="Email" />
+                </td>
+                <td style="text-align: left;">
+                    <input type="text" id="txtNumărdetelefon" name="PhoneNumber" />
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- Tabelul pentru Titlu și Suma -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Titlu</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Valuta</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <input type="text" id="txttitlu" name="Title" />
+                </td>
+                <td style="text-align: left;">
+                    <input type="text" id="txtsuma" name="Sum" />
+                </td>
+                <td style="text-align: left; ">
+                    <select id="txtalegecategoria" name="Currency" required>
+                        <option value="USD">USD</option>
+                        <option value="EURO">Euro</option>
+                        <option value="MDL">MDL</option>
+                        
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Data începerii și Data încheierii -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Data începerii</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Data încheierii</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    <input type="date" id="txtDataInceperii" name="StartDate" />
+                </td>
+                <td style="text-align: left;">
+                    <input type="date" id="txtDataIncheierii" name="EndDate" />
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Descrierea cazului -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Descrierea cazului</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <textarea id="txtDescriereCaz" rows="4" cols="50" name="Description"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Adauga imagine</td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="uploadBox">
+                        <input type="file" name="ImageFile" id="ImageFile">
+                    </label>
+                </td>
+
+            </tr>
+        </table>
+
+        <button class="btn btn-primary" style="text-align: center;" type="submit">
+            Creează cazul
+        </button>
+
+        @* <!-- Butonul pentru Crează cazul --> *@
+        @* <div style="text-align: center;"> *@
+        @*     <input type="button" value="Creează cazul"/> *@
+        @* </div> *@
+    </form>
+}

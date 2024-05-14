@@ -1,0 +1,101 @@
+﻿﻿﻿@using System.Web.Optimization
+@{
+    ViewBag.Title = "PersonalProfile";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
+}
+@model proiect.Models.User.UEditData
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!-- Adăugăm link-ul către stilurile Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row gutters-sm">
+            <!-- Coloana pentru poza de profil și câmpul de încărcare a fișierului -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <img id="profilePicture" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                            <input type="file" id="profilePictureInput" accept="image/*">
+                            <div class="mt-3">
+                                <h4>
+                                    @Model.UserName
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Coloana pentru tabelul cu date -->
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Nume de utilizator</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary" id="usernameField">
+                                @Model.UserName
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Email</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary" id="emailField">
+                                @Model.Email
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Rol</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary" id="roleField">
+                                @HttpContext.Current.Session["Role"]
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Telefon mobil</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary" id="phoneField">
+                                @Model.PhoneNumber
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Tara</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary" id="addressField">
+                                @Model.Country
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Butonul pentru editare -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <a href="@Url.Action("EditProfile", "Dashboard", new { userId = Model.Id })" class="btn btn-block">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adăugăm script-ul pentru jQuery și Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

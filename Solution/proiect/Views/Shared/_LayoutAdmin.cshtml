@@ -1,13 +1,11 @@
-﻿
-@{
-    ViewBag.Title = "_LayoutAdmin";
-}
-@using System.Web.Optimization;
+﻿﻿@using System.Web.Optimization;
 <!DOCTYPE html>
 <html>
 <head>
     @if (IsSectionDefined("Styles"))
-    {@RenderSection("Styles", required: false)}
+    {
+        @RenderSection("Styles", required: false)
+    }
     @Styles.Render("~/bundles/bootstrap/css")
 
 </head>

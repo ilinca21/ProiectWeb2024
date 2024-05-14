@@ -1,0 +1,229 @@
+﻿@{
+    ViewBag.Title = "EditCase";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
+}
+@using Solution.BusinessLogic.Core
+@using proiect.VerifyRole
+@model proiect.Models.Case.CaseData
+
+<style>
+    /* Stilurile pentru tabele */
+    table {
+        width: 80%; 
+        margin: auto;
+        border-collapse: collapse; 
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    th, td {
+        padding: 10px; 
+        border: 1px solid black; 
+        text-align: left; 
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea {
+        width: 100%; 
+        padding: 8px; 
+        margin: 5px 0; 
+        box-sizing: border-box; 
+        border-radius: 5px; 
+        border: 1px solid #ccc; 
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    input[type="button"] {
+        width: 150px; 
+        padding: 10px; 
+        margin-top: 20px; 
+        border: none; 
+        border-radius: 5px; 
+        background-color: red; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif; 
+        cursor: pointer; 
+    }
+
+        input[type="button"]:hover {
+            background-color: #45a049; 
+        }
+</style>
+
+@using (Html.BeginForm("EditCase", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <!-- Formularul -->
+    <h2 style="text-align: center; font-weight: bold;">Adaugă caz nou</h2>
+
+    <form>
+        <!-- Tabelul pentru Nume și Prenume, Vârstă -->
+        <table>
+            <tr>
+                <td>Nume, Prenume</td>
+                <td>Vârsta</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.FullName)
+                    @Html.TextBoxFor(a => a.FullName)
+                    @Html.ValidationMessageFor(a => a.FullName)
+                </td>
+                <td>
+                    @Html.LabelFor(a => a.Age)
+                    @Html.TextBoxFor(a => a.Age)
+                    @Html.ValidationMessageFor(a => a.Age)
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Localitatea și Adresa -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Localitatea</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Adresa</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.City)
+                    @Html.TextBoxFor(a => a.City)
+                    @Html.ValidationMessageFor(a => a.City)
+                </td>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.Address)
+                    @Html.TextBoxFor(a => a.Address)
+                    @Html.ValidationMessageFor(a => a.Address)
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Email și Număr de telefon -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Email</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Număr de telefon</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.Email)
+                    @Html.TextBoxFor(a => a.Email)
+                    @Html.ValidationMessageFor(a => a.Email)
+                </td>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.PhoneNumber)
+                    @Html.TextBoxFor(a => a.PhoneNumber)
+                    @Html.ValidationMessageFor(a => a.PhoneNumber)
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- Tabelul pentru Titlu și Suma -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Titlu</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Valuta</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    @Html.LabelFor(a => a.Title)
+                    @Html.TextBoxFor(a => a.Title)
+                    @Html.ValidationMessageFor(a => a.Title)
+                </td>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.TotalSum)
+                    @Html.TextBoxFor(a => a.TotalSum)
+                    @Html.ValidationMessageFor(a => a.TotalSum)
+                </td>
+                <td style="text-align: left; ">
+                    @Html.LabelFor(a => a.Currency)
+                    @Html.DropDownListFor(a => a.Currency, new SelectList(new[]
+                    {
+                        "USD", "EURO", "MDL"
+                    }), "Select a category", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(a => a.Currency)
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Data începerii și Data încheierii -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Data începerii</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Data încheierii</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.StartDate)
+                    <input type="date" id="StartDate" name="StartDate" required value="@Model.StartDate" />
+                    @Html.ValidationMessageFor(a => a.StartDate)
+                </td>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.EndDate)
+                    <input type="date" id="EndDate" name="EndDate" value="@Model.StartDate" required />
+                    @Html.ValidationMessageFor(a => a.EndDate)
+                </td>
+            </tr>
+        </table>
+
+        <!-- Tabelul pentru Descrierea cazului -->
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Descrierea cazului</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    @Html.LabelFor(a => a.Description)
+                    @Html.TextBoxFor(a => a.Description)
+                    @Html.ValidationMessageFor(a => a.Description)
+                </td>
+            </tr>
+        </table>
+
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Imagine</td>
+            </tr>
+            <tr>
+                <td>
+                    @if (Model.ImagePath != null)
+                    {
+                        <label for="currentImage"></label>
+                        <img src="@Url.Content(Model.ImagePath)" style="max-width: 200px; max-height: 200px;" alt="Current Image">
+                    }
+
+                    <!-- Încărcare imagine nouă -->
+                    <div class="form-group">
+                        <label for="newImage">Upload New Image:</label><br>
+                        <input type="file" name="ImageFile" id="ImageFile" accept="image/*">
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Status</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; ">
+                    <select id="txtalegestatus" name="Status" required>
+                        <option value="WantingApproval">WantingApproval</option>
+                        <option value="Approved">Approved</option>
+                        <option value="Finished">Finished</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        @Html.HiddenFor(a => a.Id)
+        @Html.HiddenFor(a => a.AuthorId)
+        @Html.HiddenFor(a => a.Author)
+
+        <button class="btn btn-primary" style="text-align: center;" type="submit">
+            Editeaza cazul
+        </button>
+    </form>
+}
+

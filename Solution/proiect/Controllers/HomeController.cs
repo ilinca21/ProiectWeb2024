@@ -1,6 +1,11 @@
-﻿using proiect.Extensions;
+﻿using AutoMapper;
+using proiect.Extensions;
 using proiect.Models;
+using proiect.Models.Case;
+using proiect.Models.Testimonial;
 using proiect.VerifyRole;
+using Solution.BusinessLogic.Interfaces;
+using Solution.BusinessLogic.MainBL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +17,16 @@ namespace proiect.Controllers
     public class HomeController : BaseController
     {
         // GET: Home
+        public readonly ICase _case;
+        public readonly ITestimonial _testimonial;
+
+        public HomeController()
+        {
+            var bl = new BusinessLogic();
+            _case = bl.GetCaseBL();
+            _testimonial = bl.GetTestimonialBL();
+        }
+
         public ActionResult Index()
         {
             string role = SessionStatus();
@@ -20,69 +35,92 @@ namespace proiect.Controllers
                 return View();
             }
 
-            else
+            if (role == "Admin")
             {
-                if (role == "Admin")
-                    return RedirectToAction("IndexAdmin", "Admin");
-                else
-                    return RedirectToAction("IndexUserLogin", "UserLogin");
+                return RedirectToAction("Index", "Admin");
             }
-        }
-        public ActionResult IndexAdmin()
-        {
-            return View();
-        }
-        public ActionResult UserPage()
-        {
-            return View();
+
+            return RedirectToAction("Index", "UserLogin");
         }
 
-        public ActionResult LoginPage()
+
+        public ActionResult PageToateCazurile()
         {
-            return View();
+            var data = _case.GetAll();
+            List<CaseViewData> allCases = new List<CaseViewData>();
+
+            if (data.Any())
+            {
+                foreach (var caseData in data)
+                {
+                    var caseMinimal = Mapper.Map<CaseViewData>(caseData);
+                    allCases.Add(caseMinimal);
+                }
+
+                return View(allCases);
+            }
+
+            return RedirectToAction("Error", "Home");
         }
 
-        public ActionResult SignIn()
+        public ActionResult PageCazuriUrgente()
         {
-            return View();
+            var data = _case.GetAllUrgentCases();
+            List<CaseViewData> allCases = new List<CaseViewData>();
+
+            if (data.Any())
+            {
+                foreach (var caseData in data)
+                {
+                    var caseMinimal = Mapper.Map<CaseViewData>(caseData);
+                    allCases.Add(caseMinimal);
+                }
+
+                return View(allCases);
+            }
+
+            return RedirectToAction("Error", "Home");
         }
 
-        public ActionResult CreateAccount()
+        public ActionResult PageCazuriFinisate()
         {
-            return View();
-        }
+            var data = _case.GetAllFinishedCases();
+            List<CaseViewData> allCases = new List<CaseViewData>();
 
-        public ActionResult PageFAQ()
-        {
-            return View();
-        }
-        public ActionResult PageAdaugareCaz()
-        {
-            return View();
-        }
-        public ActionResult PageContact()
-        {
-            return View();
-        }
-        public ActionResult PageDesprenoi()
-        {
-            return View();
+            if (data.Any())
+            {
+                foreach (var caseData in data)
+                {
+                    var caseMinimal = Mapper.Map<CaseViewData>(caseData);
+                    allCases.Add(caseMinimal);
+                }
+
+                return View(allCases);
+            }
+
+            return RedirectToAction("Error", "Home");
         }
 
         public ActionResult PageTestimoniale()
         {
-            return View();
-        }
-        public ActionResult PageDonatieLunar()
-        {
-            return View();
+            var data = _testimonial.GetAll();
+            List<TestimonialViewData> allTestimonials = new List<TestimonialViewData>();
+
+            if (data.Any())
+            {
+                foreach (var testimonialData in data)
+                {
+                    var testimonial = Mapper.Map<TestimonialViewData>(testimonialData);
+                    allTestimonials.Add(testimonial);
+                }
+
+                return View(allTestimonials);
+            }
+
+            return RedirectToAction("Error", "Home");
         }
 
-        public ActionResult PageProfilulMeu()
-        {
-            return View();
-        }
-        public ActionResult PageToateCazurile()
+        public ActionResult PageContact()
         {
             return View();
         }
@@ -92,12 +130,17 @@ namespace proiect.Controllers
             return View();
         }
 
-        public ActionResult PageCazuriUrgente()
+        public ActionResult PageDesprenoi()
         {
             return View();
         }
 
-        public ActionResult PageCazuriFinisate()
+        public ActionResult PageFAQ()
+        {
+            return View();
+        }
+
+        public ActionResult Error()
         {
             return View();
         }

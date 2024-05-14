@@ -1,67 +1,61 @@
-﻿
-@{
-    ViewBag.Title = "NavbarAdmin";
-
-}
-
-﻿<ul class="sidebar-nav" id="sidebar-nav">
+﻿﻿<ul class="sidebar-nav" id="sidebar-nav">
 
 
     <li class="nav-heading">Pagini</li>
     <li class="nav-item">
-        <a href="@Url.Action("AdminProfil","Admin")" class="nav-link collapsed">
+        <a href="@Url.Action("PersonalProfile", "Dashboard")" class="nav-link collapsed">
             <span>Profilul meu</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
+    <li class="nav-heading">Pagini</li>
+    <li class="nav-item">
+        <a href="@Url.Action("AddUser", "Admin")" class="nav-link collapsed">
+            <span>Adaugă utilizator nou</span>
+        </a>
+    </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("AdaugareCazAdmin","Admin")" class="nav-link collapsed">
+        <a href="@Url.Action("AddCase", "Admin")" class="nav-link collapsed">
             <span>Adaugă cazul</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("GestionareCazuri","Admin")" class="nav-link collapsed">
+        <a href="@Url.Action("CasesManagement", "Admin")" class="nav-link collapsed">
             <span>Toate cazurile</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
 
     <li class="nav-item">
-        <a href="@Url.Action("CazuriUrgenteAdmin","Admin")" class="nav-link collapsed">
+        <a href="@Url.Action("UrgentCases", "Home")" class="nav-link collapsed">
             <span>Cazuri urgente</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("CazuriFinisateAdmin","Admin")" class="nav-link collapsed">
+        <a href="@Url.Action("FinishedCases", "Home")" class="nav-link collapsed">
             <span>Cazuri finisate</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("AdaugareTestimoniale","Admin")" class="nav-link collapsed">
+        <a href="@Url.Action("AddTestimonial", "Admin")" class="nav-link collapsed">
             <span>Testimoniale</span>
         </a>
     </li><!-- End Profile Page Nav -->
+
     <li class="nav-item">
-        <a href="@Url.Action("AdaugareUser","Admin")" class="nav-link collapsed">
-            <span>Adaugare utilizator nou</span>
+        <a href="@Url.Action("Questions", "Admin")" class="nav-link collapsed">
+            <span>FAQ</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("LoginPage","Login")" class="nav-link collapsed">
-            <span>Autentificare</span>
-        </a>
-    </li><!-- End Login Page Nav -->
-
-    <li class="nav-item">
-        <a class="nav-link collapsed">
+        <a href="@Url.Action("CompanyPartnerships", "Home")" class="nav-link collapsed">
             <span>Parteneriate cu companii</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
 </ul>
-

@@ -1,79 +1,73 @@
-﻿
-@{
-    ViewBag.Title = "_NavbarUser";
-}
-
-﻿<ul class="sidebar-nav" id="sidebar-nav">
+﻿﻿<ul class="sidebar-nav" id="sidebar-nav">
 
     <li class="nav-item">
-        <a href="@Url.Action("ProfilulMeu","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("PersonalProfile", "Dashboard")" class="nav-link collapsed">
             <span>Profilul meu</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("AdaugareCaz","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("AddCase", "UserLogin")" class="nav-link collapsed">
             <span>Adaugă cazul</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("ToateCazurile","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("AllCases", "Home")" class="nav-link collapsed">
             <span>Toate cazurile</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
 
     <li class="nav-item">
-        <a href="@Url.Action("CazuriUrgenteUser","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("UrgentCases", "Home")" class="nav-link collapsed">
             <span>Cazuri urgente</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("CazuriFinisateUser","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("FinishedCases", "Home")" class="nav-link collapsed">
             <span>Cazuri finisate</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
 
     <li class="nav-item">
-        <a href="@Url.Action("FAQ","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("FAQ", "UserLogin")" class="nav-link collapsed">
             <span>F.A.Q</span>
         </a>
     </li><!-- End F.A.Q Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("Testimoniale","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("Testimonials", "Home")" class="nav-link collapsed">
             <span>Testimoniale</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("Contact","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("Contact", "Home")" class="nav-link collapsed">
             <span>Contacte</span>
         </a>
     </li><!-- End Contact Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("ParteneriateCompanii","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("CompanyPartnerships", "Home")" class="nav-link collapsed">
             <span>Parteneriate cu companii</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
 
     <li class="nav-item">
-        <a href="@Url.Action("Desprenoi","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("About", "Home")" class="nav-link collapsed">
             <span>Despre noi</span>
         </a>
     </li><!-- End Profile Page Nav -->
 
     <li class="nav-item">
-        <a href="@Url.Action("Donatielunar","UserLogin")" class="nav-link collapsed">
+        <a href="@Url.Action("MonthlyDonation", "UserLogin")" class="nav-link collapsed">
             <span>Doneaza lunar</span>
         </a>
     </li><!-- End Profile Page Nav -->
 </ul>
-
 
 

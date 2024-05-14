@@ -1,7 +1,8 @@
 ﻿@{
     ViewBag.Title = "PageParteneriateCompanii";
-    Layout = "~/Views/Shared/_LayoutParteneriateCompanii.cshtml";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
+@model proiect.Models.User.UserLogin
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -19,32 +20,32 @@
 
         h1 {
             margin-top: 50px;
-            font-size: 36px; /* Mărește dimensiunea fontului */
+            font-size: 36px; 
         }
 
         .image-container {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            flex-wrap: wrap; /* Permite ca imaginile să treacă la un rând nou */
-            margin-top: 20px; /* Ajustează marginea de sus */
+            flex-wrap: wrap;
+            margin-top: 20px; 
         }
 
             .image-container img {
-                max-width: 300px; /* Mărește dimensiunea maximă a imaginilor */
+                max-width: 300px; 
                 height: auto;
-                margin: 10px; /* Ajustează marginile pentru a separa imaginile */
-                border-radius: 10px; /* Adaugă o mică rotație la imaginile partenerilor */
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adaugă o umbra subtile pentru imaginile partenerilor */
+                margin: 10px; 
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
             }
 
         .description {
-            margin-top: 50px; /* Ajustează marginea superioară */
-            max-width: 600px; /* Limitează lățimea pentru a menține o citire confortabilă */
-            margin-left: auto; /* Aliniază la stânga */
-            margin-right: auto; /* Aliniază la dreapta */
-            text-align: center; /* Aliniază textul în centru */
-            font-size: 18px; /* Mărește dimensiunea fontului */
+            margin-top: 50px; 
+            max-width: 600px; 
+            margin-left: auto; 
+            margin-right: auto; 
+            text-align: center; 
+            font-size: 18px; 
         }
     </style>
 </head>

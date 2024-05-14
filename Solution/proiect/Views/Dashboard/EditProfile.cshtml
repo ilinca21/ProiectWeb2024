@@ -1,0 +1,148 @@
+﻿
+@using System.Web.Optimization
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
+}
+@model proiect.Models.User.UEditData
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    @using (Html.BeginForm("EditProfile", "Dashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="container">
+            <div class="row gutters-sm">
+              
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <img id="profilePicture" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                                <input type="file" id="profilePictureInput" accept="image/*">
+                                <div class="mt-3">
+                                    <h4>@HttpContext.Current.Session["UserName"]</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="col-md-8">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Nume de utilizator</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary" id="usernameField">
+                                    @Html.LabelFor(a => a.UserName)
+                                    @Html.TextBoxFor(a => a.UserName)
+                                    @Html.ValidationMessageFor(a => a.UserName)
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Email</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary" id="emailField">
+                                    @Html.LabelFor(a => a.Email)
+                                    @Html.TextBoxFor(a => a.Email)
+                                    @Html.ValidationMessageFor(a => a.Email)
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Rol</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary" id="roleField">
+                                    @HttpContext.Current.Session["Role"]
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Telefon mobil</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary" id="phoneField">
+                                    @Html.LabelFor(a => a.PhoneNumber)
+                                    @Html.TextBoxFor(a => a.PhoneNumber)
+                                    @Html.ValidationMessageFor(a => a.PhoneNumber)
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Tara</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary" id="addressField">
+                                    @Html.LabelFor(a => a.Country)
+                                    @Html.TextBoxFor(a => a.Country)
+                                    @Html.ValidationMessageFor(a => a.Country)
+                                </div>
+                            </div>
+                            <hr>
+                            @Html.HiddenFor(a => a.Id)
+
+                            <!-- Butonul pentru editare -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button class="btn btn-info edit-button" type="submit">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+   
+    <script>
+        document.getElementById('profilePictureInput').addEventListener('change', function (e) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById('profilePicture');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(this.files[0]);
+        });
+
+        // Funcția pentru activarea editării
+        function enableEdit() {
+            document.querySelectorAll('.text-secondary').forEach(field => {
+                var text = field.innerText.trim();
+                field.innerHTML = `<input type="text" class="form-control edit-input" value="${text}">`;
+            });
+            // Ascundem butonul de edit și afișăm butonul de salvare
+            document.querySelector('.edit-button').style.display = 'none';
+            document.querySelector('.save-button').style.display = 'inline-block';
+        }
+        // Funcția pentru salvarea modificărilor
+        function saveChanges() {
+            var editedFields = document.querySelectorAll('.edit-input');
+            editedFields.forEach(field => {
+                var newText = field.value;
+                field.parentElement.innerHTML = newText;
+            });
+            // Afisam butonul de edit si ascundem butonul de salvare
+            document.querySelector('.edit-button').style.display = 'inline-block';
+            document.querySelector('.save-button').style.display = 'none';
+        }
+    </script>
+
+
+    <!-- Adăugăm script-ul pentru jQuery și Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

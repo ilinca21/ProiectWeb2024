@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "MonthlyDonation";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
+}
+@model proiect.Models.Card.CardData
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donatie Lunara</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif; 
+            background-color: #c4bdb7; 
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .sum-options {
+            text-align: left;
+            display: inline-block;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            display: inline-block;
+            margin: 5px;
+            text-align: center;
+            line-height: 100px;
+            background-color: white;
+        }
+
+            .square.selected {
+                background-color: #f8c50e; 
+            }
+
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f8c50e;
+            color: #000; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: "Times New Roman", Times, serif; 
+        }
+    </style>
+</head>
+<body>
+    @using (Html.BeginForm("MonthlyDonation", "User", FormMethod.Post))
+    {
+        <div class="container">
+            <form>
+                <h1>Donație Lunară</h1>
+                <div class="sum-options">
+                    <p>Opțiuni de donație lunară:</p>
+                    <button class="square" value="2" name="Sum">2 USD</button>
+                    <button class="square" value="3" name="Sum">3 USD</button>
+                    <button class="square" value="20" name="Sum">20 USD</button>
+                    <button class="square" value="25" name="Sum">25 USD</button>
+                    <button class="square" value="30" name="Sum">30 USD</button>
+                    <button class="square" value="35" name="Sum">35 USD</button>
+                    <button class="square" value="340" name="Sum">340 USD</button>
+                    <button class="square" value="500" name="Sum">500 USD</button>
+                    <button class="square" value="1000" name="Sum">1000 USD</button>
+                </div>
+                <div class="sum-options">
+                    <button class="square" value="50" name="Sum">50 USD</button>
+                    <button class="square" value="100" name="Sum">100 USD</button>
+                    <button class="square" value="200" name="Sum">200 USD</button>
+                    <button class="square" value="300" name="Sum">300 USD</button>
+                    <button class="square" value="400" name="Sum">400 USD</button>
+                    <button class="square" value="600" name="Sum">600 USD</button>
+                    <button class="square" value="700" name="Sum">700 USD</button>
+                    <button class="square" value="800" name="Sum">800 USD</button>
+                    <button class="square" value="900" name="Sum">900 USD</button>
+                </div>
+                <button class="button" type="submit">Înregistrează donația lunară</button>
+
+                @Html.HiddenFor(a => a.Id)
+                @Html.HiddenFor(a => a.FullName)
+                @Html.HiddenFor(a => a.CardNumber)
+                @Html.HiddenFor(a => a.ExpirationDate)
+                @Html.HiddenFor(a => a.CVV)
+                @Html.HiddenFor(a => a.DateAdded)
+                @Html.HiddenFor(a => a.UserId)
+
+            </form>
+        </div>
+    }
+    <script>
+        const squares = document.querySelectorAll('.square');
+
+        squares.forEach(square => {
+            square.addEventListener('click', () => {
+                squares.forEach(sq => sq.classList.remove('selected'));
+                square.classList.add('selected');
+            });
+        });
+    </script>
+</body>
+</html>
+
+

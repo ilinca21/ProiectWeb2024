@@ -1,6 +1,8 @@
 ﻿@{
     ViewBag.Title = "PageToateCazurile";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
+@model System.Collections.Generic.List<proiect.Models.Case.CaseViewData>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -13,7 +15,7 @@
             background-color: #f5f5f5;
             margin: 0;
             padding: 0;
-            color: #000; /* schimbarea culorii textului în negru */
+            color: #000; 
         }
 
         .container {
@@ -40,17 +42,19 @@
             border-radius: 5px;
             overflow: hidden;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
         }
 
         .item-link {
             display: block;
             text-decoration: none;
-            color: #000; /* schimbarea culorii textului în negru */
+            color: #000; 
         }
 
         .item-pattern img {
             width: 100%;
-            height: auto;
+            height: 200px; 
+            object-fit: cover; 
         }
 
         .item-content {
@@ -65,13 +69,13 @@
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 10px;
-            color: #000; /* schimbarea culorii textului în negru */
+            color: #000; 
         }
 
         .amount-received {
             font-size: 16px;
             margin-bottom: 10px;
-            color: #000; /* schimbarea culorii textului în negru */
+            color: #000; 
         }
 
         .progress {
@@ -111,140 +115,36 @@
     <div class="container">
         <h1 class="heading-title">Toate cazurile</h1>
 
-        <div class="listing-events">
-            <div class="necessity-item">
-                <div class="item-link">
-                    <div class="item-pattern">
-                        <a href="https://www.caritate.md/donations/din-inima-prntru-serghei-bocan">
-                            <img src="https://www.caritate.md/uploads/282x210/54615-img-3297.jpeg" alt="Din inimă prntru Serghei Bocan">
+        @foreach (var caseData in Model)
+        {
+            <div class="listing-events">
+                <div class="necessity-item">
+                    <div class="item-link">
+                        <div class="item-pattern">
+                            @if (caseData.ImagePath != null)
+                            {
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width:80%; max-height: 900px" src="@Url.Content(caseData.ImagePath)" alt="...">
+                            }
+                            else
+                            {
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 500px;height: 600px" src="" alt="...">
+                            }
+                        </div>
+                        <a class="item-content">
+                            <span class="name" title="title">@caseData.Title</span>
+                            <div class="amount-received">
+                                <span>Suma primită: </span>
+                                <strong>@caseData.CollectedSum @caseData.Currency </strong>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: @caseData.CollectedSum / @caseData.CollectedSum %"></div>
+                            </div>
+                            <span class="data-percent">(@caseData.CollectedSum/ @caseData.CollectedSum)%</span>
                         </a>
                     </div>
-                    <a class="item-content">
-                        <span class="name" title="Din inimă pentru Serghei Bocan">Din inimă pentru Serghei Bocan</span>
-                        <div class="amount-received">
-                            <span>Suma primită: </span>
-                            <strong>3,103 EUR</strong>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 21%"></div>
-                        </div>
-                        <span class="data-percent">21%</span>
-                    </a>
                 </div>
             </div>
-            <!-- Repetă pentru al doilea caz de donare -->
-            <div class="necessity-item">
-                <div class="item-link">
-                    <div class="item-pattern">
-                        <a href="https://www.caritate.md/donations/din-inima-pentru-tatiana-simac">
-                            <img src="https://www.caritate.md/uploads/282x210/54541-img-3043.jpeg" alt="Din inimă pentru Tatiana Simac">
-                        </a>
-                    </div>
-                    <a class="item-content">
-                        <span class="name" title="Din inimă pentru Tatiana Simac">Din inimă pentru Tatiana Simac</span>
-                        <div class="amount-received">
-                            <span>Suma primită: </span>
-                            <strong>3,039 MDL</strong>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 4%"></div>
-                        </div>
-                        <span class="data-percent">4%</span>
-                    </a>
-                    <button class="btn-donate">Donează</button>
-                </div>
-            </div>
-
-            <div class="necessity-item">
-                <div class="item-link">
-                    <div class="item-pattern">
-                        <a href="https://www.caritate.md/donations/din-inima-pentru-mihaela-marjina">
-                            <img src="https://www.caritate.md/uploads/282x210/54510-img-2938.jpeg" alt="Din inimă pentru Mihaela Marjina">
-                        </a>
-                    </div>
-                    <a class="item-content">
-                        <span class="name" title="Din inimă pentru Mihaela Marjina">Din inimă pentru Mihaela Marjina</span>
-                        <div class="amount-received">
-                            <span>Suma primită: </span>
-                            <strong>7,548 MDL</strong>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 16%"></div>
-                        </div>
-                        <span class="data-percent">16%</span>
-                    </a>
-                    <button class="btn-donate">Donează</button>
-                </div>
-            </div>
-
-            <div class="necessity-item">
-                <div class="item-link">
-                    <div class="item-pattern">
-                        <a href="https://www.caritate.md/donations/din-inima-pentru-alex-rotari">
-                            <img src="https://www.caritate.md/uploads/282x210/54378-img-2580.jpeg" alt="Din inimă pentru Alex Rotari">
-                        </a>
-                    </div>
-                    <a class="item-content">
-                        <span class="name" title="Din inimă pentru Alex Rotari">Din inimă pentru Alex Rotari</span>
-                        <div class="amount-received">
-                            <span>Suma primită: </span>
-                            <strong>11,267 EUR</strong>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 23%"></div>
-                        </div>
-                        <span class="data-percent">23%</span>
-                    </a>
-                    <button class="btn-donate">Donează</button>
-                </div>
-            </div>
-
-            <div class="necessity-item">
-                <div class="item-link">
-                    <div class="item-pattern">
-                        <a href="https://www.caritate.md/donations/din-inima-pentru-gabriela-si-maxim-sava">
-                            <img src="https://www.caritate.md/uploads/282x210/54383-img-2600.jpeg" alt="Din inimă pentru Gabriela și Maxim Sava">
-                        </a>
-                    </div>
-                    <a class="item-content">
-                        <span class="name" title="Din inimă pentru Gabriela și Maxim Sava">Din inimă pentru Gabriela și Maxim Sava</span>
-                        <div class="amount-received">
-                            <span>Suma primită: </span>
-                            <strong>1,630 EUR</strong>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 3%"></div>
-                        </div>
-                        <span class="data-percent">3%</span>
-                    </a>
-                    <button class="btn-donate">Donează</button>
-                </div>
-            </div>
-
-            <div class="necessity-item">
-                <div class="item-link">
-                    <div class="item-pattern">
-                        <a href="https://www.caritate.md/donations/din-inima-pentru-irina-nistor">
-                            <img src="https://www.caritate.md/uploads/282x210/54373-img-2572.jpeg" alt="Din inimă pentru Irina Nistor">
-                        </a>
-                    </div>
-                    <a class="item-content">
-                        <span class="name" title="Din inimă pentru Irina Nistor">Din inimă pentru Irina Nistor</span>
-                        <div class="amount-received">
-                            <span>Suma primită: </span>
-                            <strong>1,230 EUR</strong>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 25%"></div>
-                        </div>
-                        <span class="data-percent">25%</span>
-                    </a>
-                    <button class="btn-donate">Donează</button>
-                </div>
-            </div>
-
-        </div>
+        }
     </div>
-
 </body>
 </html>

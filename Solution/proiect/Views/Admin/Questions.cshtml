@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "Questions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model System.Collections.Generic.List<proiect.Models.Question.QuestionData>
+<section class="section faq">
+    <div class="row">
+        <div class="col-lg-20">
+
+            <div class="card basic">
+                <div class="card-body">
+                    <div style="text-align: center;">
+                        <h5 style="color: black; font-weight: bold;">Întrebări frecvente</h5>
+                    </div>
+
+                    <div>
+                        <!-- Adaugi clasa "question" la întrebare -->
+                        <h5 style="color: black; ">Despre salveazaoviata.md</h5>
+                        <h6 class="question" style="color: red;">1. Ce reprezintă Salvează o Viață?</h6>
+                        <div class="answer">
+                            <p>
+                                Salvează o Viață - este o platformă de colectare a fondurilor (pe baza de organizare socială), care are ca scop suportul tendințelor și schimbărilor pozitive în societatea din Republica Moldova.
+
+                                Salvează o Viață este o punte de legătură între societatea civilă - oameni care sunt dispuși și capabili să participe la procesele sociale pozitive și persoanele care au nevoie de ajutor.
+                            </p>
+                        </div>
+                    </div>
+
+                    @foreach (var question in Model)
+                    {
+                        <div class="pt-2">
+                            <h6 style="color: red;">@question.FullName </h6>
+                            <p>
+                                @question.Message
+                            </p>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+
+                h2 {
+                    text-align: center;
+                    margin-top: 30px;
+                }
+
+                table {
+                    margin: 0 auto;
+                    width: 60%;
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+
+                th, td {
+                    padding: 10px;
+                    text-align: left;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+
+                input[type="text"],
+                input[type="email"],
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    box-sizing: border-box;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+
+                input[type="submit"] {
+                    background-color: red;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    transition: background-color 0.3s;
+                }
+
+                    input[type="submit"]:hover {
+                        background-color: #cc0000;
+                    }
+            </style>
+        </div>
+
+    </div>
+</section>
+

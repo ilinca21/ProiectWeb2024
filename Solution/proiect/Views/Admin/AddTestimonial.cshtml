@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "AddTestimonial";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
+}
+@model proiect.Models.Testimonial.TestimonialData
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    @using (Html.BeginForm("AddTestimonial", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <!-- Formularul -->
+        <h2 style="text-align: center; font-weight: bold;">Adaugă testimonial</h2>
+
+        <form>
+            <table style="margin: auto;">
+                <tr>
+                    <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Adauga imagine</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="uploadBox">
+                            <input type="file" name="ImageFile" id="ImageFile">
+                        </label>
+                    </td>
+
+                </tr>
+            </table>
+
+            <button class="btn btn-primary" style="text-align: center;" type="submit">
+                Adauga
+            </button>
+
+        </form>
+    }
+</body>
+</html>
+

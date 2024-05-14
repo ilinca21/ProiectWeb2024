@@ -1,6 +1,6 @@
 ﻿@{
-    ViewBag.Title = "Register";
-    Layout = "~/Views/Shared/_LayoutCreateAccount.cshtml";
+    ViewBag.Title = "CreateAccount";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
 @model proiect.Models.User.UserRegister
 
@@ -41,7 +41,16 @@
                                         @Html.TextBoxFor(UserRegister => UserRegister.Email, new { @class = "form-control", placeholder = "Email", maxlength = "40" })
                                         @Html.ValidationMessageFor(UserRegister => UserRegister.Email, "", new { @class = "text-danger" })
                                     </div>
-
+                                    <div class="col-12">
+                                        <label for="yourName" class="form-label">Numar de telefon</label>
+                                        @Html.TextBoxFor(UserRegister => UserRegister.PhoneNumber, new { @class = "form-control", placeholder = "Numar de telefon", maxlength = "20" })
+                                        @Html.ValidationMessageFor(UserRegister => UserRegister.PhoneNumber, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="yourName" class="form-label">Tara</label>
+                                        @Html.TextBoxFor(UserRegister => UserRegister.Country, new { @class = "form-control", placeholder = "Tara", maxlength = "20" })
+                                        @Html.ValidationMessageFor(UserRegister => UserRegister.Country, "", new { @class = "text-danger" })
+                                    </div>
                                     <div class="col-12">
                                         <label for="yourPassword" class="form-label">Parola</label>
                                         @Html.PasswordFor(UserRegister => UserRegister.Password, new { @class = "form-control", placeholder = "Parola" })

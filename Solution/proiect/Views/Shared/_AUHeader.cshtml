@@ -14,9 +14,9 @@
                 <a class="nav-link nav-icon search-bar-toggle " href="#">
                     <i class="bi bi-search"></i>
                 </a>
-            </li><!-- End Search Icon-->
+            </li>
         </ul>
-    </nav><!-- End Icons Navigation -->
+    </nav>
 
     <div style="position: fixed; top: 0; right: 0;">
         <a href="@Url.Action("LogOut","Login")" class="btn btn-sm btn-donate" style="background-color: #f81717; color: #ffffff; border: none;">Ieșire</a>
@@ -31,7 +31,7 @@
 
         if (toggleButton && sidebar) {
             toggleButton.addEventListener('click', function () {
-                // Verificați starea curentă a barei laterale
+                
                 const isSidebarVisible = sidebar.classList.contains('active');
 
                 if (isSidebarVisible) {
@@ -59,15 +59,15 @@
         .sidebar.active {
             left: 0; /* Afișată atunci când clasa "active" este aplicată */
         }
-        /* Stiluri pentru elementele din bara laterală */
+        
         .sidebar ul {
             list-style: none;
-            padding: 15px 0; /* Adăugăm spațiu deasupra și dedesubtul elementelor din listă */
+            padding: 15px 0; 
             margin: 0;
         }
 
             .sidebar ul li {
-                padding: 10px 15px; /* Adăugăm spațiu în jurul textului din fiecare element */
+                padding: 10px 15px; 
                 font-size: 16px;
             }
 </style>

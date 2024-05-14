@@ -43,6 +43,8 @@ namespace proiect.Controllers
                     Password = data.Password,
                     ConfirmPassword = data.ConfirmPassword,
                     Email = data.Email,
+                    Country = data.Country,
+                    PhoneNumber = data.PhoneNumber,
                     LoginIp = Request.UserHostAddress,
                     LoginDateTime = DateTime.Now
                 };
