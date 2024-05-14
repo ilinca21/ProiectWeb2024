@@ -18,6 +18,26 @@ namespace Solution.BusinessLogic.MainBL
         {
             return new MonitoringBL();
         }
+        public ICase GetCaseBL()
+        {
+            return new CaseBL();
+        }
+
+        public ICard GetCardBL()
+        {
+            return new CardBL();
+        }
+
+        public IQuestion GetQuestionBL()
+        {
+            return new QuestionBL();
+        }
+
+        public ITestimonial GetTestimonialBL()
+        {
+            return new TestimonialBL();
+        }     
     }
 }
+
 

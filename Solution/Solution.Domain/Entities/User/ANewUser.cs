@@ -19,5 +19,6 @@ namespace Solution.Domain.Entities.User
         public string Password { get; set; }
         public string ConfirmPassword { get; set; }
         public UserRole Level { get; set; }
+        public string LoginIp { get; set; }
     }
 }

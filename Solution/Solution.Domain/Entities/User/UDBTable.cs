@@ -25,6 +25,8 @@ namespace Solution.Domain.Entities.User
         [Display(Name = "Email Address")]
         [StringLength(30)]
         public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Country { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime LastLogin { get; set; }

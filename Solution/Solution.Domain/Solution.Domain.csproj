@@ -51,13 +51,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Card\CardDbTable.cs" />
+    <Compile Include="Entities\Card\NewCardData.cs" />
+    <Compile Include="Entities\Card\UCardData.cs" />
+    <Compile Include="Entities\Case\CaseDBTable.cs" />
+    <Compile Include="Entities\Case\CaseEditData.cs" />
+    <Compile Include="Entities\Case\CaseMinimal.cs" />
+    <Compile Include="Entities\Case\NewCaseData.cs" />
     <Compile Include="Entities\DonatorType\DonatorTypeDetail.cs" />
+    <Compile Include="Entities\Question\NewQuestionData.cs" />
+    <Compile Include="Entities\Question\QuestionDbTable.cs" />
+    <Compile Include="Entities\Responce\CardResp.cs" />
+    <Compile Include="Entities\Responce\CaseResp.cs" />
+    <Compile Include="Entities\Responce\QuestionResp.cs" />
+    <Compile Include="Entities\Responce\TestimonialResp.cs" />
     <Compile Include="Entities\Responce\ULoginResp.cs" />
+    <Compile Include="Entities\Responce\UserResp.cs" />
     <Compile Include="Entities\Session\Session.cs" />
+    <Compile Include="Entities\Testimonial\NewTestimonialData.cs" />
+    <Compile Include="Entities\Testimonial\TestimonialDbTable.cs" />
     <Compile Include="Entities\User\ANewUser.cs" />
     <Compile Include="Entities\User\UDBTable.cs" />
     <Compile Include="Entities\User\ULoginData.cs" />
     <Compile Include="Entities\User\URegisterData.cs" />
+    <Compile Include="Entities\User\UserEditData.cs" />
     <Compile Include="Entities\User\UserMinimal.cs" />
     <Compile Include="Enums\UserRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

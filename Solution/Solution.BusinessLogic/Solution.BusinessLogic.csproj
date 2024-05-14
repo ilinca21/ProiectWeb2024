@@ -61,13 +61,27 @@
   <ItemGroup>
     <Compile Include="BusinessLogic.cs" />
     <Compile Include="Core\AdminApi.cs" />
+    <Compile Include="Core\CardApi.cs" />
+    <Compile Include="Core\QuestionApi.cs" />
     <Compile Include="Core\UserApi.cs" />
+    <Compile Include="DBModel\Seed\CardContext.cs" />
+    <Compile Include="DBModel\Seed\CaseContext.cs" />
+    <Compile Include="DBModel\Seed\QuestionContext.cs" />
     <Compile Include="DBModel\Seed\SessionContext.cs" />
+    <Compile Include="DBModel\Seed\TestimonialContext.cs" />
     <Compile Include="DBModel\Seed\UserContext.cs" />
+    <Compile Include="Interfaces\ICard.cs" />
+    <Compile Include="Interfaces\ICase.cs" />
+    <Compile Include="Interfaces\IQuestion.cs" />
     <Compile Include="Interfaces\ISession.cs" />
+    <Compile Include="Interfaces\ITestimonial.cs" />
     <Compile Include="Interfaces\IUserMonitoring.cs" />
+    <Compile Include="MainBL\CardBL.cs" />
+    <Compile Include="MainBL\CaseBL.cs" />
     <Compile Include="MainBL\MonitoringBL.cs" />
+    <Compile Include="MainBL\QuestionBL.cs" />
     <Compile Include="MainBL\SessionBL.cs" />
+    <Compile Include="MainBL\TestimonialBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

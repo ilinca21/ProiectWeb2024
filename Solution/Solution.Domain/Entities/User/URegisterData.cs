@@ -11,6 +11,8 @@ namespace Solution.Domain.Entities.User
     public class URegisterData
     {
         public string Credential { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Country { get; set; }
 
         public string Password { get; set; }
 

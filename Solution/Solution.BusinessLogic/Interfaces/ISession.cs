@@ -15,5 +15,7 @@ namespace Solution.BusinessLogic.Interfaces
         ULoginResp RegisterNewUserAction(URegisterData regData);
         HttpCookie GenCookie(string loginCredential);
         UserMinimal GetUserByCookie(string value);
+        UserEditData GetUserById(int userId);
+        UserResp EditProfileAction(UserEditData existingUser);
     }
 }

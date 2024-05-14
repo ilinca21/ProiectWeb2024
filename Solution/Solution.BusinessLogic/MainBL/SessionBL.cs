@@ -14,6 +14,17 @@ namespace Solution.BusinessLogic.MainBL
 {
     public class SessionBL : UserApi, ISession
     {
+        private readonly UserContext _context;
+
+        public SessionBL()
+        {
+            _context = new UserContext();
+        }
+
+        public SessionBL(UserContext context)
+        {
+            _context = context;
+        }
         public ULoginResp UserLoginAction(ULoginData data)
         {
             return RLoginUpService(data);
@@ -31,6 +42,15 @@ namespace Solution.BusinessLogic.MainBL
         public UserMinimal GetUserByCookie(string apiCookieValue)
         {
             return UserCookie(apiCookieValue);
+        }
+        public UserEditData GetUserById(int userId)
+        {
+            return ReturnUserById(userId);
+        }
+
+        public UserResp EditProfileAction(UserEditData existingUser)
+        {
+            return ReturnEditedProfile(existingUser);
         }
     }
 }
