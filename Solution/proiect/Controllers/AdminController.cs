@@ -59,22 +59,23 @@ namespace proiect.Controllers
                     Email = data.Email,
                     Password = data.Password,
                     ConfirmPassword = data.ConfirmPassword,
+                    PhoneNumber = data.PhoneNumber,
+                    Country = data.Country,
                     Level = data.Level
                 };
                 ULoginResp resp = _monitoring.AddNewUser(uData);
                 if (resp.Status)
                 {
-                    return RedirectToAction("Users", "Admin");
+                    return RedirectToAction("Index", "Admin");
                 }
                 else
                 {
-                    ModelState.AddModelError("", resp.Message);  // Ensure this property name is correct
-                    return RedirectToAction("UserPage", "LoginUser");
+                    ModelState.AddModelError("", resp.Message);  
+                    return RedirectToAction("AddUser", "Admin");
                 }
             }
             return View(data);
         }
-
         [AdminMod]
             public ActionResult Index()
             {

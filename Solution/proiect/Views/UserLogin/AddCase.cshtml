@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "AdaugareCaz";
+    ViewBag.Title = "AddCase";
     Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
 @model proiect.Models.Case.CaseData
@@ -50,7 +50,7 @@
         }
 </style>
 
-@using (Html.BeginForm("AddCase", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("AddCase", "UserLogin", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <!-- Formularul -->
     <h2 style="text-align: center; font-weight: bold;">Adaugă caz nou</h2>
@@ -110,6 +110,7 @@
             <tr>
                 <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Titlu</td>
                 <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma curenta</td>
                 <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Valuta</td>
             </tr>
             <tr>
@@ -119,17 +120,18 @@
                 <td style="text-align: left;">
                     <input type="text" id="txtsuma" name="Sum" />
                 </td>
+                <td style="text-align: left;">
+                    <input type="text" id="txtsumaCurenta" name="CurrentSum" /> <!-- Caseta pentru suma curentă -->
+                </td>
                 <td style="text-align: left; ">
                     <select id="txtalegecategoria" name="Currency" required>
                         <option value="USD">USD</option>
-                        <option value="EURO">Euro</option>
+                        <option value="EURO">EUR</option>
                         <option value="MDL">MDL</option>
-                        
                     </select>
                 </td>
             </tr>
         </table>
-
         <!-- Tabelul pentru Data începerii și Data încheierii -->
         <table style="margin: auto;">
             <tr>
@@ -171,7 +173,18 @@
 
             </tr>
         </table>
-
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Status</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; ">
+                    <select id="txtalegestatus" name="Status" required>
+                        <option value="WaintingApproval">WaintingApproval</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
         <button class="btn btn-primary" style="text-align: center;" type="submit">
             Creează cazul
         </button>

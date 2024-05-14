@@ -3124,6 +3124,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="assets3\images\" />
     <Folder Include="assets\plugins\datatables-\extensions\FixedColumns\examples\integration\" />
+    <Folder Include="Content\Storage\Cases\" />
+    <Folder Include="Content\Storage\Testimonials\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="assets\vendor\chart.js\controllers\controller.bar.d.ts" />

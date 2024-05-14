@@ -9,41 +9,41 @@
 <style>
     /* Stilurile pentru tabele */
     table {
-        width: 80%; /* Lățimea tabelului */
-        margin: auto; /* Centrare */
-        border-collapse: collapse; /* Unirea granițelor celulelor */
-        font-family: 'Times New Roman', Times, serif; /* Font */
+        width: 80%; 
+        margin: auto; 
+        border-collapse: collapse; 
+        font-family: 'Times New Roman', Times, serif; 
     }
 
     th, td {
-        padding: 10px; /* Spațierea între conținut și granițe */
-        border: 1px solid black; /* Granițele celulelor */
-        text-align: left; /* Alinierea textului la stânga */
+        padding: 10px; 
+        border: 1px solid black; 
+        text-align: left; 
     }
 
     input[type="text"],
     input[type="date"],
     select,
     textarea {
-        width: 100%; /* Lățime completă pentru câmpurile de intrare */
-        padding: 8px; /* Spațiere */
-        margin: 5px 0; /* Spațiere între câmpuri */
-        box-sizing: border-box; /* Dimensiuni calculate incluzând padding-ul */
-        border-radius: 5px; /* Colțuri rotunjite */
-        border: 1px solid #ccc; /* Graniță */
-        font-family: 'Times New Roman', Times, serif; /* Font */
+        width: 100%; 
+        padding: 8px; 
+        margin: 5px 0; 
+        box-sizing: border-box; 
+        border-radius: 5px; 
+        border: 1px solid #ccc; 
+        font-family: 'Times New Roman', Times, serif; 
     }
 
     input[type="button"] {
-        width: 150px; /* Lățime buton */
-        padding: 10px; /* Spațiere */
-        margin-top: 20px; /* Spațiere sus */
-        border: none; /* Fără granițe */
-        border-radius: 5px; /* Colțuri rotunjite */
-        background-color: red; /* Culoare fundal */
-        color: white; /* Culoare text */
-        font-family: 'Times New Roman', Times, serif; /* Font */
-        cursor: pointer; /* Cursor de tip pointer */
+        width: 150px; 
+        padding: 10px; 
+        margin-top: 20px; 
+        border: none; 
+        border-radius: 5px; 
+        background-color: red; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif; 
+        cursor: pointer; 
     }
 
         input[type="button"]:hover {
@@ -111,6 +111,7 @@
             <tr>
                 <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Titlu</td>
                 <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma</td>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Suma curenta</td>
                 <td style="text-align: left; font-family: 'Times New Roman', Times, serif; ">Valuta</td>
             </tr>
             <tr>
@@ -120,17 +121,18 @@
                 <td style="text-align: left;">
                     <input type="text" id="txtsuma" name="Sum" />
                 </td>
+                <td style="text-align: left;">
+                    <input type="text" id="txtsumaCurenta" name="CurrentSum" /> <!-- Caseta pentru suma curentă -->
+                </td>
                 <td style="text-align: left; ">
                     <select id="txtalegecategoria" name="Currency" required>
                         <option value="USD">USD</option>
-                        <option value="EURO">Euro</option>
+                        <option value="EURO">EUR</option>
                         <option value="MDL">MDL</option>
-                        <!-- Adaugă alte opțiuni după necesitate -->
                     </select>
                 </td>
             </tr>
         </table>
-
         <!-- Tabelul pentru Data începerii și Data încheierii -->
         <table style="margin: auto;">
             <tr>
@@ -173,24 +175,20 @@
             </tr>
         </table>
 
-        @if (IsAdmin.IsUserAdmin())
-        {
-            <table style="margin: auto;">
-                <tr>
-                    <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Status</td>
-                </tr>
-                <tr>
-                    <td style="text-align: left; ">
-                        <select id="txtalegestatus" name="Status" required>
-                            <option value="WantingApproval">WantingApproval</option>
-                            <option value="Approved">Approved</option>
-                            <option value="Finished">Finished</option>
-                            <!-- Adaugă alte opțiuni după necesitate -->
-                        </select>
-                    </td>
-                </tr>
-            </table>
-        }
+
+        <table style="margin: auto;">
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Status</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; ">
+                    <select id="txtalegestatus" name="Status" required>
+                        <option value="Approved">Approved</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
 
         <button class="btn btn-primary" style="text-align: center;" type="submit">
             Creează cazul

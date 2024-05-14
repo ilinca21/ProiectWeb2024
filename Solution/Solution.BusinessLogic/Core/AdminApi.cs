@@ -237,6 +237,8 @@ namespace Solution.BusinessLogic.Core
                     Email = data.Email,
                     Password = LoginHelper.HashGen(data.Password),
                     LastIp = "",
+                    PhoneNumber = data.PhoneNumber,
+                    Country = data.Country,
                     LastLogin = DateTime.Now,
                     Level = UserRole.User
                 };

@@ -69,7 +69,7 @@ namespace proiect.Controllers
                     ControllerContext.HttpContext.Response.Cookies.Add(cookie);
                     Session["UserName"] = data.Credential;
                     if (resp.Message == "Admin")
-                        return RedirectToAction("IndexAdmin", "Admin");
+                        return RedirectToAction("Index", "Admin");
                     return RedirectToAction("Index", "Home");
                 }
                 else

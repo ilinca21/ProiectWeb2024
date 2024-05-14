@@ -25,7 +25,9 @@ namespace Solution.Domain.Entities.User
         [Display(Name = "Email Address")]
         [StringLength(30)]
         public string Email { get; set; }
+        [Required]
         public string PhoneNumber { get; set; }
+        [Required]
         public string Country { get; set; }
 
         [DataType(DataType.Date)]
