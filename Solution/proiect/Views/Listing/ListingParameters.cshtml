@@ -11,6 +11,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cazuri pentru Donare</title>
     <style>
+        .item-content .name,
+        .item-content .description,
+        .item-content .amount-received,
+        .item-content .total-sum,
+        .item-content .data-percent {
+            color: #000; 
+            text-decoration: none; 
+        }
+
+            .item-content .name:hover,
+            .item-content .description:hover,
+            .item-content .amount-received:hover,
+            .item-content .total-sum:hover,
+            .item-content .data-percent:hover {
+                text-decoration: none; 
+            }
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
@@ -139,19 +155,34 @@
                             </div>
                             <a class="item-content">
                                 <span class="name" title="title">@caseData.Title</span>
+                                <p class="description">@caseData.Description</p>
                                 <div class="amount-received">
                                     <span>Suma primită: </span>
                                     <strong>@caseData.CollectedSum @caseData.Currency </strong>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: @caseData.CollectedSum / @caseData.CollectedSum %"></div>
+                                <div class="total-sum">
+                                    <span>Suma totală: </span>
+                                    <strong>@caseData.TotalSum @caseData.Currency </strong>
                                 </div>
-                                <span class="data-percent">(@caseData.CollectedSum/ @caseData.CollectedSum)%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: @(caseData.CollectedSum * 100 / caseData.TotalSum )%"></div>
+                                </div>
+                                <span class="data-percent">(@caseData.CollectedSum / @caseData.TotalSum)%</span>
                             </a>
-                            <button class="btn-edit">Editeaza</button>
-                            <button class="btn-delete">Șterge</button>
                         </div>
                     </div>
+                    <script>
+                    // Obține suma primită și totalul
+                    var receivedAmount = @caseData.CollectedSum;
+                    var totalAmount = @caseData.TotalSum;
+
+                    // Calculează procentul
+                    var percentage = (receivedAmount / totalAmount) * 100;
+
+                    // Actualizează lățimea barei de progres
+                    document.querySelector('.progress-bar').style.width = percentage + "%";
+
+                    </script>
                 </div>
             }
         }

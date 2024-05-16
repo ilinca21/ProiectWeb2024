@@ -8,5 +8,8 @@ namespace Solution.BusinessLogic.Interfaces
     {
         TestimonialResp AddTestimonialAction(NewTestimonialData data);
         IEnumerable<TestimonialDbTable> GetAll();
+        TestimonialDbTable GetById(int testimonialId);
+        void Delete(int testimonialId);
+        void Save();
     }
 }

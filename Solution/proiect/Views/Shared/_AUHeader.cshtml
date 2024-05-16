@@ -31,7 +31,7 @@
 
         if (toggleButton && sidebar) {
             toggleButton.addEventListener('click', function () {
-                
+
                 const isSidebarVisible = sidebar.classList.contains('active');
 
                 if (isSidebarVisible) {
@@ -59,25 +59,28 @@
         .sidebar.active {
             left: 0; /* Afișată atunci când clasa "active" este aplicată */
         }
-        
+
         .sidebar ul {
             list-style: none;
-            padding: 15px 0; 
+            padding: 15px 0;
             margin: 0;
         }
 
             .sidebar ul li {
-                padding: 10px 15px; 
+                padding: 10px 15px;
                 font-size: 16px;
             }
 </style>
 
-<div class="search-bar">
-    <form class="search-form d-flex align-items-center" method="POST" action="#">
-        <input type="text" name="query" placeholder="Căutare" title="Introdu un caz">
-        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-    </form>
-</div><!-- End Search Bar -->
+@using (Html.BeginForm("ListingSearchByKey", "Listing", FormMethod.Get))
+{
+    <div class="search-bar">
+        <form class="search-form d-flex align-items-center" method="POST" action="#">
+            <input type="text" name="key" placeholder="Căutare" title="Introdu un caz">
+            <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+        </form>
+    </div><!-- End Search Bar -->
+}
 <style>
     .btn-donate {
         background-color: #ff0000;

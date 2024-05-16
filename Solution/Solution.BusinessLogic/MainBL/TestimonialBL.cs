@@ -27,10 +27,25 @@ namespace Solution.BusinessLogic.MainBL
         {
             return AddTestimonial(data);
         }
-
+        public void Delete(int testimonialId)
+        {
+            TestimonialDbTable model = _context.Testimonials.Find(testimonialId);
+            if (model != null)
+            {
+                _context.Testimonials.Remove(model);
+            }
+        }
+        public void Save()
+        {
+            _context.SaveChanges();
+        }
         public IEnumerable<TestimonialDbTable> GetAll()
         {
             return _context.Testimonials.ToList();
+        }
+        public TestimonialDbTable GetById(int testimonialId)
+        {
+            return _context.Testimonials.Find(testimonialId);
         }
     }
 }

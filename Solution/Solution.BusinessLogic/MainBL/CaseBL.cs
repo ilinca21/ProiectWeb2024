@@ -42,9 +42,9 @@ namespace Solution.BusinessLogic.MainBL
             return ReturnCasesByKey(key);
         }
 
-        public IEnumerable<CaseDbTable> GetAll()
+        public IEnumerable<CaseMinimal> GetAll()
         {
-            return _context.Cases.ToList();
+            return ReturnCases();
         }
 
         public IEnumerable<CaseMinimal> GetAllUrgentCases()

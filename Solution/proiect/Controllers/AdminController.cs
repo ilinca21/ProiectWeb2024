@@ -213,6 +213,7 @@ namespace proiect.Controllers
         }
         public ActionResult CasesManagement()
         {
+            SessionStatus();
             var data = _case.GetAll();
             List<CaseViewData> allCases = new List<CaseViewData>();
 
@@ -277,9 +278,22 @@ namespace proiect.Controllers
 
             return RedirectToAction("Error", "Home");
         }
+        public ActionResult DeleteTestimonial(int testimonialId)
+        {
+            SessionStatus();
+            var testimonialToDelete = _testimonial.GetById(testimonialId);
+            if (testimonialToDelete == null)
+            {
+                return HttpNotFound();
+            }
 
+            _testimonial.Delete((int)testimonialId);
+            _testimonial.Save();
+            return RedirectToAction("CasesManagement", "Admin");
+        }
         public ActionResult Testimonials()
         {
+            SessionStatus();
             var data = _testimonial.GetAll();
             List<TestimonialViewData> allTestimonials = new List<TestimonialViewData>();
 

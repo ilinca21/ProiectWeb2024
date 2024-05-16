@@ -13,6 +13,7 @@ namespace Solution.Domain.Entities.Card
         public int CardNumber { get; set; }
         public string ExpirationDate { get; set; }
         public int CVV { get; set; }
+        public int Sum { get; set; }
         public DateTime DateAdded { get; set; }
         public int UserId { get; set; }
     }

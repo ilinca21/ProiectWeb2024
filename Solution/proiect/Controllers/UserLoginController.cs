@@ -81,7 +81,7 @@ namespace proiect.Controllers
                     var response = _case.AddCaseAction(data);
                     if (response.Status)
                     {
-                        return RedirectToAction("AllCases", "Home");
+                        return RedirectToAction("PageToateCazurile", "Home");
                     }
 
                     ModelState.AddModelError("", response.StatusMessage);

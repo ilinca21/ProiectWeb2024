@@ -94,9 +94,27 @@ namespace Solution.BusinessLogic.Core
             List<CaseMinimal> list = new List<CaseMinimal>();
             using (var db = new CaseContext())
             {
-                var results = db.Cases.Where(item => item.Title.Contains(key)
+                var results = db.Cases.Where(item => item.Title.Contains(key) && item.Status == "Approved"
                                                      || item.Description.Contains(key)
                 );
+
+                foreach (var item in results)
+                {
+                    var caseMinimal = Mapper.Map<CaseMinimal>(item);
+                    list.Add(caseMinimal);
+                }
+            }
+
+            return list.ToList();
+        }
+        public IEnumerable<CaseMinimal> ReturnCases()
+        {
+            List<CaseMinimal> list = new List<CaseMinimal>();
+            var dateTimeNow = DateTime.Now;
+
+            using (var db = new CaseContext())
+            {
+                var results = db.Cases.Where(a => a.Status == "Approved");
 
                 foreach (var item in results)
                 {
@@ -110,11 +128,11 @@ namespace Solution.BusinessLogic.Core
         public IEnumerable<CaseMinimal> ReturnUrgentCases()
         {
             List<CaseMinimal> list = new List<CaseMinimal>();
-            var dateTimeNow = DateTime.Now;
+            var todayPlus5Days = DateTime.Today.AddDays(5);
 
             using (var db = new CaseContext())
             {
-                var results = db.Cases.Where(a => a.EndDate <= dateTimeNow);
+                var results = db.Cases.Where(a => a.EndDate <= todayPlus5Days);
 
                 foreach (var item in results)
                 {
@@ -125,14 +143,14 @@ namespace Solution.BusinessLogic.Core
 
             return list.ToList();
         }
+
         public IEnumerable<CaseMinimal> ReturnFinishedCases()
         {
             List<CaseMinimal> list = new List<CaseMinimal>();
-            var dateTimeNow = DateTime.Now;
 
             using (var db = new CaseContext())
             {
-                var results = db.Cases.Where(a => a.EndDate >= dateTimeNow);
+                var results = db.Cases.Where(a => a.CollectedSum == a.TotalSum);
 
                 foreach (var item in results)
                 {
@@ -143,6 +161,7 @@ namespace Solution.BusinessLogic.Core
 
             return list.ToList();
         }
+
         public TestimonialResp AddTestimonial(NewTestimonialData data)
         {
             var newTestimonial = Mapper.Map<TestimonialDbTable>(data);

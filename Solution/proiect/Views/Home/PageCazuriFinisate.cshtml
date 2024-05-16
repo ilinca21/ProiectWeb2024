@@ -1,8 +1,8 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "PageCazuriFinisate";
     Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
+
 @model System.Collections.Generic.List<proiect.Models.Case.CaseViewData>
 <!DOCTYPE html>
 <html lang="ro">
@@ -15,7 +15,14 @@
         .heading-title {
             text-align: center;
         }
+        .btn-delete {
+            background-color: red; 
+            color: white; 
+            
+        }
+
     </style>
+
 </head>
 <body>
     <div class="list-of-news-block bg-gray">
@@ -45,6 +52,16 @@
                             <h4>
                                 @caseData.Title
                             </h4>
+                            @if (HttpContext.Current.Session["LoginStatus"] == "login" )
+                            {
+                                var nivelAcces = (Solution.Domain.Enums.UserRole)HttpContext.Current.Session["Role"];
+
+                                if (nivelAcces.ToString() == "Admin")
+                                {
+                                <a href="@Url.Action("DeleteCase", "Admin", new { caseId = caseData.Id })" class="btn-delete">Șterge</a>
+                                }
+                            }
+                  
                         </div>
                     </div>
                 </div>
@@ -53,5 +70,5 @@
     }
 
 </body>
-
 </html>
+

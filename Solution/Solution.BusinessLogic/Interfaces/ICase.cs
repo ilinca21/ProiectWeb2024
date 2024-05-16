@@ -9,7 +9,7 @@ namespace Solution.BusinessLogic.Interfaces
         CaseResp AddCaseAction(NewCaseData data);
         CaseDbTable GetById(int caseId);
         IEnumerable<CaseMinimal> GetCasesByKey(string key);
-        IEnumerable<CaseDbTable> GetAll();
+        IEnumerable<CaseMinimal> GetAll();
         IEnumerable<CaseMinimal> GetAllUrgentCases();
         IEnumerable<CaseMinimal> GetAllFinishedCases();
         CaseResp EditCaseAction(CaseEditData existingCase);

@@ -63,38 +63,39 @@
             }
 </style>
 
-
-
-<div class="search-bar">
-    <form class="search-form d-flex align-items-center" method="POST" action="#">
-        <input type="text" name="query" placeholder="Căutare" title="Introdu un caz">
-        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-    </form>
-</div><!-- End Search Bar -->
-<style>
-    .btn-donate {
-        background-color: #ff0000;
-        color: #ffffff;
-        border: none;
+    @using (Html.BeginForm("ListingSearchByKey", "Listing", FormMethod.Get))
+    {
+        <div class="search-bar">
+            <form class="search-form d-flex align-items-center" method="POST" action="#">
+                <input type="text" name="key" placeholder="Căutare" title="Introdu un caz">
+                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+            </form>
+        </div><!-- End Search Bar -->
     }
+        <style>
+            .btn-donate {
+                background-color: #ff0000;
+                color: #ffffff;
+                border: none;
+            }
 
-    .btn-sm {
-        padding: 5px 10px;
-        font-size: 14px;
-    }
-</style>
+            .btn-sm {
+                padding: 5px 10px;
+                font-size: 14px;
+            }
+        </style>
 
-<nav class="header-nav ms-auto">
-    <ul class="d-flex align-items-center">
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
 
-        <li class="nav-item d-block d-lg-none">
-            <a class="nav-link nav-icon search-bar-toggle " href="#">
-                <i class="bi bi-search"></i>
-            </a>
-        </li><!-- End Search Icon-->
+                <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link nav-icon search-bar-toggle " href="#">
+                        <i class="bi bi-search"></i>
+                    </a>
+                </li><!-- End Search Icon-->
 
-    </ul>
+            </ul>
 
-</nav><!-- End Icons Navigation -->
+        </nav><!-- End Icons Navigation -->
 
 

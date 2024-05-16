@@ -3,7 +3,6 @@
     ViewBag.Title = "AddCase";
     Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
-@using proiect.VerifyRole
 @model proiect.Models.Case.CaseData
 
 <style>
@@ -35,20 +34,21 @@
     }
 
     input[type="button"] {
-        width: 150px; 
-        padding: 10px; 
-        margin-top: 20px; 
-        border: none; 
-        border-radius: 5px; 
-        background-color: red; 
-        color: white; 
-        font-family: 'Times New Roman', Times, serif; 
-        cursor: pointer; 
+        width: 100px; 
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
     }
 
         input[type="button"]:hover {
             background-color: #45a049; /* Culoare fundal la hover */
         }
+
 </style>
 
 @using (Html.BeginForm("AddCase", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
@@ -119,10 +119,10 @@
                     <input type="text" id="txttitlu" name="Title" />
                 </td>
                 <td style="text-align: left;">
-                    <input type="text" id="txtsuma" name="Sum" />
+                    <input type="number" id="txtsuma" name="TotalSum" />
                 </td>
                 <td style="text-align: left;">
-                    <input type="text" id="txtsumaCurenta" name="CurrentSum" /> <!-- Caseta pentru suma curentă -->
+                    <input type="number" id="txtsumaCurenta" name="CollectedSum" /> <!-- Caseta pentru suma curentă -->
                 </td>
                 <td style="text-align: left; ">
                     <select id="txtalegecategoria" name="Currency" required>
@@ -176,18 +176,20 @@
         </table>
 
 
-        <table style="margin: auto;">
-            <tr>
-                <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Status</td>
-            </tr>
-            <tr>
-                <td style="text-align: left; ">
-                    <select id="txtalegestatus" name="Status" required>
-                        <option value="Approved">Approved</option>
-                    </select>
-                </td>
-            </tr>
-        </table>
+     
+            <table style="margin: auto;">
+                <tr>
+                    <td style="text-align: left; font-family: 'Times New Roman', Times, serif;">Status</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; ">
+                        <select id="txtalegestatus" name="Status" required>
+                            <option value="Approved">Approved</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        
 
 
         <button class="btn btn-primary" style="text-align: center;" type="submit">

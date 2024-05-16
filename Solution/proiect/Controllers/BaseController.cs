@@ -18,33 +18,30 @@ namespace proiect.Controllers
             _session = bl.GetSessionBL();
         }
 
-        public string SessionStatus()
+        public void SessionStatus()
         {
             var apiCookie = Request.Cookies["X-KEY"];
             if (apiCookie != null)
             {
                 var profile = _session.GetUserByCookie(apiCookie.Value);
                 if (profile != null)
-                {
+                { 
                     System.Web.HttpContext.Current.SetMySessionObject(profile);
                     System.Web.HttpContext.Current.Session["LoginStatus"] = "login";
                     System.Web.HttpContext.Current.Session["Username"] = profile.UserName;
                     System.Web.HttpContext.Current.Session["Email"] = profile.Email;
                     System.Web.HttpContext.Current.Session["Role"] = profile.Level;
-                    if (profile.Level == Solution.Domain.Enums.UserRole.Admin)
-                        return "Admin";
-                    return "User";
+                   
                 }
                 else
                 {
                     ClearSessionAndCookie();
-                    return "None";
+              
                 }
             }
             else
             {
                 System.Web.HttpContext.Current.Session["LoginStatus"] = "logout";
-                return "None";
             }
         }
         private void ClearSessionAndCookie()

@@ -3,7 +3,7 @@
     Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
 @using Solution.BusinessLogic.Core
-@using proiect.VerifyRole
+
 @model proiect.Models.Case.CaseData
 
 <style>
@@ -136,6 +136,11 @@
                     @Html.TextBoxFor(a => a.TotalSum)
                     @Html.ValidationMessageFor(a => a.TotalSum)
                 </td>
+                <td style="text-align: left;">
+                    @Html.LabelFor(a => a.CollectedSum)
+                    @Html.TextBoxFor(a => a.CollectedSum)
+                    @Html.ValidationMessageFor(a => a.CollectedSum)
+                </td>
                 <td style="text-align: left; ">
                     @Html.LabelFor(a => a.Currency)
                     @Html.DropDownListFor(a => a.Currency, new SelectList(new[]
@@ -210,8 +215,8 @@
             <tr>
                 <td style="text-align: left; ">
                     <select id="txtalegestatus" name="Status" required>
-                        <option value="WantingApproval">WantingApproval</option>
                         <option value="Approved">Approved</option>
+                        <option value="WantingApproval">WantingApproval</option>
                         <option value="Finished">Finished</option>
                     </select>
                 </td>

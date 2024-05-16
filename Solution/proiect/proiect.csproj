@@ -2749,8 +2749,6 @@
     <Compile Include="Models\User\UserLogin.cs" />
     <Compile Include="Models\User\UserRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VerifyRole\IsAdmin.cs" />
-    <Compile Include="VerifyRole\IsLoginUser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -3124,6 +3122,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="assets3\images\" />
     <Folder Include="assets\plugins\datatables-\extensions\FixedColumns\examples\integration\" />
+    <Folder Include="Content\PostsImages\" />
     <Folder Include="Content\Storage\Cases\" />
     <Folder Include="Content\Storage\Testimonials\" />
   </ItemGroup>

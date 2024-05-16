@@ -3,7 +3,6 @@ using proiect.Extensions;
 using proiect.Models;
 using proiect.Models.Case;
 using proiect.Models.Testimonial;
-using proiect.VerifyRole;
 using Solution.BusinessLogic.Interfaces;
 using Solution.BusinessLogic.MainBL;
 using System;
@@ -29,16 +28,13 @@ namespace proiect.Controllers
 
         public ActionResult Index()
         {
-            string role = SessionStatus();
+            SessionStatus();
             if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] != "login")
             {
                 return View();
             }
 
-            if (role == "Admin")
-            {
-                return RedirectToAction("Index", "Admin");
-            }
+           
 
             return RedirectToAction("Index", "UserLogin");
         }
@@ -46,6 +42,7 @@ namespace proiect.Controllers
 
         public ActionResult PageToateCazurile()
         {
+            SessionStatus(); 
             var data = _case.GetAll();
             List<CaseViewData> allCases = new List<CaseViewData>();
 
@@ -65,6 +62,7 @@ namespace proiect.Controllers
 
         public ActionResult PageCazuriUrgente()
         {
+            SessionStatus();
             var data = _case.GetAllUrgentCases();
             List<CaseViewData> allCases = new List<CaseViewData>();
 
@@ -84,6 +82,7 @@ namespace proiect.Controllers
 
         public ActionResult PageCazuriFinisate()
         {
+            SessionStatus();
             var data = _case.GetAllFinishedCases();
             List<CaseViewData> allCases = new List<CaseViewData>();
 
@@ -103,6 +102,7 @@ namespace proiect.Controllers
 
         public ActionResult PageTestimoniale()
         {
+            SessionStatus();
             var data = _testimonial.GetAll();
             List<TestimonialViewData> allTestimonials = new List<TestimonialViewData>();
 

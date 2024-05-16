@@ -1,7 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "Questions";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutCases.cshtml";
 }
 @model System.Collections.Generic.List<proiect.Models.Question.QuestionData>
 <section class="section faq">
@@ -12,19 +12,6 @@
                 <div class="card-body">
                     <div style="text-align: center;">
                         <h5 style="color: black; font-weight: bold;">Întrebări frecvente</h5>
-                    </div>
-
-                    <div>
-                        <!-- Adaugi clasa "question" la întrebare -->
-                        <h5 style="color: black; ">Despre salveazaoviata.md</h5>
-                        <h6 class="question" style="color: red;">1. Ce reprezintă Salvează o Viață?</h6>
-                        <div class="answer">
-                            <p>
-                                Salvează o Viață - este o platformă de colectare a fondurilor (pe baza de organizare socială), care are ca scop suportul tendințelor și schimbărilor pozitive în societatea din Republica Moldova.
-
-                                Salvează o Viață este o punte de legătură între societatea civilă - oameni care sunt dispuși și capabili să participe la procesele sociale pozitive și persoanele care au nevoie de ajutor.
-                            </p>
-                        </div>
                     </div>
 
                     @foreach (var question in Model)
